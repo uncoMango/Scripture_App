@@ -1,12 +1,11 @@
 {
-  "G3056": {
-    "word": "λόγος",
-    "transliteration": "logos",
-    "definition": "The Word, speech, reason, or divine utterance."
-  },
-  "H7225": {
-    "word": "רֵאשִׁית",
-    "transliteration": "reshith",
-    "definition": "Beginning, chief, or first fruit."
+  "John 3:16": {
+    "verse": "John 3:16",
+    "words": [
+      {"greek": "Οὕτως", "transliteration": "Houtōs", "strongs": "G3779", "english": "For so"},
+      {"greek": "ἠγάπησεν", "transliteration": "ēgapēsen", "strongs": "G25", "english": "loved"},
+      {"greek": "ὁ", "transliteration": "ho", "strongs": "G3588", "english": "the"},
+      {"greek": "Θεὸς", "transliteration": "Theos", "strongs": "G2316", "english": "God"}
+    ]
   }
 }
