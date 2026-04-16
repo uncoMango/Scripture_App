@@ -513,7 +513,7 @@ def parse_step_response(raw, lang):
         except:
             pass
 
-    return words, None
+    return words
 
 # ─── Lookup in bundled lexicon ────────────────────────────────────────────────
 
@@ -707,6 +707,73 @@ def search_word(strong_num):
         print(f"\n  No bundled entry for {key}.")
         print(f"  Try stepbible.org or blueletterbible.org/lexicon/{key.lower()}")
     divider()
+
+# ─── Web API result (used by FastAPI /study route) ───────────────────────────
+
+def get_web_result(ref_str):
+    """Return structured dict suitable for JSON serialization."""
+    result = {
+        "query": ref_str,
+        "reference": ref_str,
+        "book": None,
+        "language": None,
+        "chapter": None,
+        "verse": None,
+        "english_kjv": None,
+        "words": [],
+        "key_theological_words": [],
+        "error": None,
+    }
+
+    book_num, chapter, verse, lang = parse_reference(ref_str)
+    if book_num is None:
+        result["error"] = (
+            f"Could not parse reference '{ref_str}'. "
+            "Format examples: John 3:16 | Genesis 1:1 | Psalm 23:1"
+        )
+        return result
+
+    result["book"] = BOOK_DISPLAY.get(book_num, "Unknown")
+    result["language"] = lang
+    result["chapter"] = chapter
+    result["verse"] = verse
+    result["reference"] = f"{result['book']} {chapter}:{verse}"
+    result["english_kjv"] = fetch_english_verse(ref_str)
+
+    word_list, err = fetch_step_interlinear(book_num, chapter, verse, lang)
+
+    if err or not word_list:
+        result["error"] = err or "No interlinear data returned"
+        prefix = "G" if lang == "Greek" else "H"
+        result["bundled_lexicon_fallback"] = [
+            {"strong": k, **v}
+            for k, v in list(BUNDLED_LEXICON.items())
+            if k.startswith(prefix)
+        ][:8]
+        return result
+
+    for wd in word_list:
+        entry = lookup_lexicon(wd.get("strong", ""))
+        word_entry = dict(wd)
+        if entry:
+            word_entry["lexicon"] = entry
+        result["words"].append(word_entry)
+
+    for wd in word_list:
+        s = wd.get("strong", "").upper()
+        if s in BUNDLED_LEXICON:
+            entry = BUNDLED_LEXICON[s]
+            result["key_theological_words"].append({
+                "strong": s,
+                "translit": wd.get("translit", ""),
+                "original": wd.get("original", ""),
+                "root": entry.get("root", ""),
+                "meaning_preview": entry.get("meaning", "")[:200],
+                "cross_refs": entry.get("cross_refs", []),
+            })
+
+    return result
+
 
 # ─── Interactive loop ─────────────────────────────────────────────────────────
 
