@@ -7,5 +7,15 @@
       {"greek": "ὁ", "transliteration": "ho", "strongs": "G3588", "english": "the"},
       {"greek": "Θεὸς", "transliteration": "Theos", "strongs": "G2316", "english": "God"}
     ]
+  },
+  "G3056": {
+    "word": "λόγος",
+    "transliteration": "logos",
+    "definition": "The Word, speech, reason, or divine utterance."
+  },
+  "H7225": {
+    "word": "רֵאשִׁית",
+    "transliteration": "reshith",
+    "definition": "Beginning, chief, or first fruit."
   }
 }

@@ -820,6 +820,26 @@ def interactive():
 
 # ─── Entry point ──────────────────────────────────────────────────────────────
 
+return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/render/project/src/.venv/lib/python3.14/site-packages/anyio/to_thread.py", line 63, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/opt/render/project/src/.venv/lib/python3.14/site-packages/anyio/_backends/_asyncio.py", line 2502, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/opt/render/project/src/.venv/lib/python3.14/site-packages/anyio/_backends/_asyncio.py", line 986, in run
+Menu
+    result = context.run(func, *args)
+  File "/opt/render/project/src/main.py", line 20, in study
+    return scripture_search.get_web_result(q)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'scripture_search' has no attribute 'get_web_result'
+
 if __name__ == "__main__":
     if len(sys.argv) > 1:
         arg = " ".join(sys.argv[1:])
