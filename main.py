@@ -20,5 +20,7 @@ def home():
         return f.read()
 
 @app.get("/study")
-def study(q: str):
-    return scripture_search.get_web_result(q)
+def study(q: str, show_all: bool = False):
+    """Look up a verse. By default returns only flagged (mistranslated) words.
+    Pass ?show_all=true to get the full word-by-word interlinear too."""
+    return scripture_search.get_web_result(q, show_all=show_all)
