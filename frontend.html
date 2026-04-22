@@ -3,143 +3,638 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ke Aupuni O Ke Akua - Scripture Study</title>
+  <title>Ke Aupuni O Ke Akua — Scripture Study</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&family=Noto+Sans+Hebrew:wght@300;400;600&family=Noto+Serif:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
   <style>
+    :root {
+      --bg:         #0f0d0a;
+      --surface:    #1a1610;
+      --surface2:   #231e17;
+      --border:     #3a3020;
+      --border2:    #4d4030;
+      --gold:       #c8972a;
+      --gold-soft:  #d4aa55;
+      --gold-dim:   #7a5a18;
+      --text:       #e8dfc8;
+      --text-dim:   #9a8e78;
+      --text-faint: #5a5040;
+      --red:        #c04a3a;
+      --green:      #4a8a6a;
+      --hebrew:     #e8c87a;
+      --greek:      #7ab8e8;
+      --radius:     4px;
+    }
+
     * { box-sizing: border-box; margin: 0; padding: 0; }
 
     body {
-      font-family: Arial, sans-serif;
-      background: #1a1a2e;
-      color: #e0e0e0;
+      font-family: 'Noto Sans', sans-serif;
+      background: var(--bg);
+      color: var(--text);
       min-height: 100vh;
-      padding: 2rem 1rem;
-    }
-
-    .container { max-width: 800px; margin: 0 auto; }
-
-    h1 {
-      text-align: center;
-      font-size: 1.8rem;
-      margin-bottom: 0.4rem;
-      color: #d4a574;
-    }
-
-    .subtitle {
-      text-align: center;
-      color: #aaa;
-      margin-bottom: 2rem;
-      font-size: 0.95rem;
-    }
-
-    .search-box {
-      display: flex;
-      gap: 0.5rem;
-      margin-bottom: 2rem;
-    }
-
-    input {
-      flex: 1;
-      padding: 0.75rem 1rem;
-      border-radius: 8px;
-      border: 1px solid rgba(255,255,255,0.2);
-      font-size: 1rem;
-      background: rgba(255,255,255,0.08);
-      color: white;
-    }
-
-    input::placeholder { color: #888; }
-
-    input:focus {
-      outline: none;
-      border-color: #5f9ea0;
-    }
-
-    button {
-      padding: 0.75rem 1.5rem;
-      background: #5f9ea0;
-      color: white;
-      border: none;
-      border-radius: 8px;
-      font-size: 1rem;
-      cursor: pointer;
-      font-weight: bold;
-      transition: background 0.2s;
-    }
-
-    button:hover { background: #4a8b8e; }
-    button:disabled { background: #3a5f60; cursor: not-allowed; }
-
-    .result {
-      background: rgba(255,255,255,0.05);
-      border: 1px solid rgba(255,255,255,0.1);
-      border-radius: 10px;
-      padding: 1.25rem 1.5rem;
-      white-space: pre-wrap;
       line-height: 1.7;
-      font-size: 0.97rem;
     }
 
-    .error {
-      color: #e07070;
-      background: rgba(200,50,50,0.1);
-      border: 1px solid rgba(200,50,50,0.3);
-      border-radius: 8px;
-      padding: 1rem;
+    header {
+      border-bottom: 1px solid var(--border);
+      padding: 2.5rem 1.5rem 2rem;
+      text-align: center;
+      background: linear-gradient(180deg, #141008 0%, var(--bg) 100%);
+    }
+
+    .site-name {
+      font-family: 'Noto Serif', serif;
+      font-size: clamp(1rem, 3vw, 1.35rem);
+      font-weight: 600;
+      letter-spacing: 0.09em;
+      color: var(--gold);
+      text-transform: uppercase;
+    }
+
+    .site-tagline {
+      font-size: 0.82rem;
+      color: var(--text-dim);
+      letter-spacing: 0.03em;
+      margin-top: 0.4rem;
+      font-style: italic;
+    }
+
+    .search-wrap {
+      max-width: 620px;
+      margin: 2rem auto 0;
+      padding: 0 1rem;
+    }
+
+    .search-label {
+      display: block;
+      font-size: 0.72rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--text-dim);
+      margin-bottom: 0.55rem;
+    }
+
+    .search-row { display: flex; gap: 0.55rem; }
+
+    .search-input {
+      flex: 1;
+      background: var(--surface);
+      border: 1px solid var(--border2);
+      border-radius: var(--radius);
+      color: var(--text);
+      font-family: 'Noto Sans', sans-serif;
+      font-size: 1rem;
+      padding: 0.7rem 1rem;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+
+    .search-input::placeholder { color: var(--text-faint); }
+    .search-input:focus { border-color: var(--gold-dim); }
+
+    .search-btn {
+      background: var(--gold-dim);
+      border: none;
+      border-radius: var(--radius);
+      color: #f0e8d0;
+      cursor: pointer;
+      font-family: 'Noto Sans', sans-serif;
+      font-size: 0.83rem;
+      font-weight: 600;
+      letter-spacing: 0.07em;
+      padding: 0.7rem 1.3rem;
+      text-transform: uppercase;
+      transition: background 0.2s;
+      white-space: nowrap;
+    }
+
+    .search-btn:hover   { background: var(--gold); color: #1a1610; }
+    .search-btn:disabled { background: var(--border); color: var(--text-faint); cursor: not-allowed; }
+
+    .search-hint {
+      font-size: 0.7rem;
+      color: var(--text-faint);
+      text-align: center;
+      margin-top: 0.5rem;
+    }
+
+    #output {
+      max-width: 740px;
+      margin: 2.5rem auto 5rem;
+      padding: 0 1.25rem;
+    }
+
+    .verse-banner {
+      border-left: 3px solid var(--gold-dim);
+      padding: 0.85rem 1.1rem;
+      margin-bottom: 1.75rem;
+      background: var(--surface);
+      border-radius: 0 var(--radius) var(--radius) 0;
+    }
+
+    .verse-ref {
+      font-size: 0.72rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--gold-soft);
+      margin-bottom: 0.35rem;
+    }
+
+    .verse-text {
+      font-family: 'Noto Serif', serif;
+      font-style: italic;
+      color: var(--text-dim);
+      font-size: 0.95rem;
+      line-height: 1.85;
+    }
+
+    .lang-badge {
+      display: inline-block;
+      font-size: 0.63rem;
+      letter-spacing: 0.13em;
+      text-transform: uppercase;
+      padding: 0.18rem 0.6rem;
+      border-radius: 2px;
+      margin-bottom: 1.4rem;
+      font-weight: 600;
+    }
+
+    .lang-greek  { background: rgba(122,184,232,0.1); color: var(--greek);  border: 1px solid rgba(122,184,232,0.2); }
+    .lang-hebrew { background: rgba(232,200,122,0.1); color: var(--hebrew); border: 1px solid rgba(232,200,122,0.2); }
+
+    .section-heading {
+      font-size: 0.68rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--text-faint);
+      margin-bottom: 1rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .word-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      margin-bottom: 1.1rem;
+      overflow: hidden;
+    }
+
+    .word-header {
+      display: flex;
+      align-items: baseline;
+      gap: 1rem;
+      padding: 0.9rem 1.2rem 0.7rem;
+      border-bottom: 1px solid var(--border);
+      flex-wrap: wrap;
+    }
+
+    .word-original {
+      font-size: 1.55rem;
+      font-weight: 300;
+      line-height: 1.2;
+    }
+
+    .greek-word  { color: var(--greek);  }
+    .hebrew-word { color: var(--hebrew); font-family: 'Noto Sans Hebrew', sans-serif; direction: rtl; }
+
+    .word-translit { font-size: 0.88rem; color: var(--text-dim); font-style: italic; }
+
+    .word-strong {
+      margin-left: auto;
+      font-size: 0.68rem;
+      letter-spacing: 0.1em;
+      color: var(--text-faint);
+      font-family: monospace;
+    }
+
+    .word-body { padding: 0.9rem 1.2rem; }
+
+    .translation-compare {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.65rem;
+      margin-bottom: 0.9rem;
+    }
+
+    @media (max-width: 500px) { .translation-compare { grid-template-columns: 1fr; } }
+
+    .compare-box {
+      border-radius: var(--radius);
+      padding: 0.6rem 0.8rem;
+      font-size: 0.83rem;
+    }
+
+    .compare-label {
+      font-size: 0.62rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      margin-bottom: 0.25rem;
+      font-weight: 600;
+    }
+
+    .compare-value { line-height: 1.55; }
+
+    .box-flattened { background: rgba(192,74,58,0.08); border: 1px solid rgba(192,74,58,0.2); }
+    .box-flattened .compare-label { color: var(--red); }
+    .box-flattened .compare-value { color: #c89080; }
+
+    .box-real { background: rgba(74,138,106,0.08); border: 1px solid rgba(74,138,106,0.2); }
+    .box-real .compare-label { color: var(--green); }
+    .box-real .compare-value { color: #90c8a8; }
+
+    .meaning-block {
+      font-size: 0.88rem;
+      color: var(--text);
+      line-height: 1.85;
+      margin-bottom: 0.8rem;
+    }
+
+    .why-block {
+      font-size: 0.81rem;
+      color: var(--text-dim);
+      line-height: 1.8;
+      padding-top: 0.7rem;
+      border-top: 1px solid var(--border);
+    }
+
+    .why-label {
+      font-size: 0.62rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--gold-dim);
+      font-weight: 600;
+      display: block;
+      margin-bottom: 0.3rem;
+    }
+
+    .cross-refs {
+      margin-top: 0.7rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.35rem;
+    }
+
+    .cross-ref {
+      font-size: 0.68rem;
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 2px;
+      padding: 0.12rem 0.45rem;
+      color: var(--text-dim);
+      cursor: pointer;
+      transition: border-color 0.15s, color 0.15s;
+    }
+
+    .cross-ref:hover { border-color: var(--gold-dim); color: var(--gold-soft); }
+
+    .author-badge {
+      display: inline-block;
+      font-size: 0.6rem;
+      letter-spacing: 0.06em;
+      padding: 0.12rem 0.45rem;
+      border-radius: 2px;
+      margin-top: 0.7rem;
+    }
+
+    .author-kahu  { background: rgba(200,151,42,0.1); color: var(--gold-dim); border: 1px solid rgba(200,151,42,0.2); }
+    .author-draft { background: rgba(90,80,64,0.3); color: var(--text-faint); border: 1px solid var(--border); }
+
+    .toggle-wrap { text-align: center; margin-top: 1.75rem; }
+
+    .toggle-btn {
+      background: none;
+      border: 1px solid var(--border2);
+      border-radius: var(--radius);
+      color: var(--text-dim);
+      cursor: pointer;
+      font-family: 'Noto Sans', sans-serif;
+      font-size: 0.76rem;
+      letter-spacing: 0.06em;
+      padding: 0.5rem 1.2rem;
+      text-transform: uppercase;
+      transition: border-color 0.2s, color 0.2s;
+    }
+
+    .toggle-btn:hover { border-color: var(--gold-dim); color: var(--gold-soft); }
+
+    .interlinear-section { margin-top: 1.5rem; overflow-x: auto; }
+
+    .interlinear-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.8rem;
+    }
+
+    .interlinear-table th {
+      text-align: left;
+      font-size: 0.62rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--text-faint);
+      padding: 0.4rem 0.7rem;
+      border-bottom: 1px solid var(--border);
+      font-weight: 400;
+    }
+
+    .interlinear-table td {
+      padding: 0.45rem 0.7rem;
+      border-bottom: 1px solid var(--border);
+      color: var(--text-dim);
+      vertical-align: middle;
+    }
+
+    .interlinear-table tr:last-child td { border-bottom: none; }
+    .interlinear-table tr:hover td { background: var(--surface2); }
+
+    .td-orig { font-size: 1.05rem; font-weight: 300; }
+    .td-flagged { color: var(--gold-soft); font-weight: 600; }
+
+    .no-flags {
+      text-align: center;
+      padding: 2.5rem 1rem;
+      color: var(--text-faint);
+      font-size: 0.88rem;
+      font-style: italic;
+      line-height: 2;
+    }
+
+    .error-box {
+      background: rgba(192,74,58,0.08);
+      border: 1px solid rgba(192,74,58,0.25);
+      border-radius: var(--radius);
+      color: #c89080;
+      font-size: 0.88rem;
+      padding: 1rem 1.2rem;
     }
 
     .spinner {
       text-align: center;
-      color: #aaa;
-      padding: 1rem;
-      font-style: italic;
+      padding: 3rem 1rem;
+      color: var(--text-faint);
+      font-size: 0.83rem;
+      letter-spacing: 0.08em;
     }
+
+    .spinner::after {
+      content: '';
+      display: inline-block;
+      width: 16px;
+      height: 16px;
+      border: 2px solid var(--border2);
+      border-top-color: var(--gold-dim);
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+      vertical-align: middle;
+      margin-left: 0.6rem;
+    }
+
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 1.5rem;
+      text-align: center;
+      font-size: 0.66rem;
+      color: var(--text-faint);
+      line-height: 2;
+    }
+
+    footer a { color: var(--text-faint); text-decoration: underline; text-underline-offset: 2px; }
+    footer a:hover { color: var(--text-dim); }
   </style>
 </head>
 <body>
-  <div class="container">
-    <h1>Ke Aupuni O Ke Akua</h1>
-    <p class="subtitle">Scripture Study Tool</p>
 
-    <div class="search-box">
-      <input id="query" type="text" placeholder="Enter a verse reference — e.g. John 3:16 or Matthew 6:33" autofocus>
-      <button id="searchBtn" onclick="search()">Search</button>
+<header>
+  <div class="site-name">Ke Aupuni O Ke Akua</div>
+  <div class="site-tagline">See what the Bible is really saying — not just what it says</div>
+
+  <div class="search-wrap">
+    <label class="search-label" for="query">Enter a verse reference</label>
+    <div class="search-row">
+      <input id="query" class="search-input" type="text"
+             placeholder="e.g. John 3:16 or Matthew 6:33"
+             autocomplete="off" autofocus>
+      <button id="searchBtn" class="search-btn" onclick="doSearch()">Study</button>
     </div>
-
-    <div id="output"></div>
+    <div class="search-hint">
+      Biblical Hebrew (OT) &nbsp;·&nbsp; Koine Greek (NT) &nbsp;·&nbsp; Original descriptive meanings
+    </div>
   </div>
+</header>
 
-  <script>
-    document.getElementById("query").addEventListener("keydown", function(e) {
-      if (e.key === "Enter") search();
-    });
+<main id="output"></main>
 
-    async function search() {
-      const q = document.getElementById("query").value.trim();
-      if (!q) return;
+<footer>
+  Hebrew &amp; Greek text: <a href="https://www.stepbible.org" target="_blank" rel="noopener">STEPBible.org</a>
+  · Tyndale House, Cambridge · CC BY 4.0
+  &nbsp;|&nbsp;
+  Original-language scholarship: Kahu Phil Stephens · Ke Aupuni O Ke Akua Press
+  <br>
+  All Hebrew is Biblical Hebrew (c.&nbsp;1400–400 BC) · All Greek is Koine Greek (c.&nbsp;300 BC–100 AD)
+  — not modern languages
+</footer>
 
-      const output = document.getElementById("output");
-      const btn = document.getElementById("searchBtn");
+<script>
+  let currentRef  = "";
+  let currentData = null;
+  let showingAll  = false;
 
-      btn.disabled = true;
-      output.innerHTML = '<div class="spinner">Searching...</div>';
+  document.getElementById("query").addEventListener("keydown", e => {
+    if (e.key === "Enter") doSearch();
+  });
 
+  async function doSearch() {
+    const q = document.getElementById("query").value.trim();
+    if (!q) return;
+
+    showingAll  = false;
+    currentRef  = q;
+    currentData = null;
+
+    document.getElementById("searchBtn").disabled = true;
+    setOutput('<div class="spinner">Searching</div>');
+
+    try {
+      const res  = await fetch("/study?q=" + encodeURIComponent(q));
+      const data = await res.json();
+      currentData = data;
+      render(data);
+    } catch (err) {
+      setOutput('<div class="error-box">Could not reach the server. Please try again.</div>');
+    } finally {
+      document.getElementById("searchBtn").disabled = false;
+    }
+  }
+
+  function jumpTo(ref) {
+    document.getElementById("query").value = ref;
+    doSearch();
+  }
+
+  async function toggleAll() {
+    if (!currentRef) return;
+    showingAll = !showingAll;
+
+    if (showingAll && currentData && !(currentData.all_words && currentData.all_words.length)) {
       try {
-        const res = await fetch("/study?q=" + encodeURIComponent(q));
-        if (!res.ok) throw new Error("Server error: " + res.status);
-        const data = await res.json();
+        const res  = await fetch("/study?q=" + encodeURIComponent(currentRef) + "&show_all=true");
+        currentData = await res.json();
+      } catch (_) {}
+    }
+    render(currentData);
+  }
 
-        const text = typeof data === "string" ? data : JSON.stringify(data, null, 2);
-        output.innerHTML = '<div class="result">' + escapeHtml(text) + '</div>';
-      } catch (err) {
-        output.innerHTML = '<div class="error">Error: ' + escapeHtml(err.message) + '</div>';
-      } finally {
-        btn.disabled = false;
-      }
+  function render(data) {
+    if (!data) return;
+
+    if (data.error && !(data.flagged_words && data.flagged_words.length)) {
+      setOutput('<div class="error-box">' + esc(data.error) + '</div>');
+      return;
     }
 
-    function escapeHtml(str) {
-      return str.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+    const lang     = (data.language || "").toLowerCase();
+    const flagged  = data.flagged_words || [];
+    const allWords = data.all_words    || [];
+
+    let html = "";
+
+    // English verse
+    if (data.english_kjv) {
+      html += '<div class="verse-banner">';
+      html += '<div class="verse-ref">KJV — ' + esc(data.reference || currentRef) + '</div>';
+      html += '<div class="verse-text">' + esc(data.english_kjv) + '</div>';
+      html += '</div>';
     }
-  </script>
+
+    // Language badge
+    if (data.language) {
+      const cls   = lang === "greek" ? "lang-greek" : "lang-hebrew";
+      const label = lang === "greek" ? "Koine Greek New Testament" : "Biblical Hebrew Old Testament";
+      html += '<div class="lang-badge ' + cls + '">' + label + '</div>';
+    }
+
+    // Flagged words
+    if (flagged.length === 0) {
+      html += '<div class="no-flags">No commonly flattened words detected in this verse.<br>';
+      html += '<small>Use the button below to see the full word-by-word interlinear.</small></div>';
+    } else {
+      html += '<div class="section-heading">Words where the English flattens the original ' + (lang === "greek" ? "Koine Greek" : "Biblical Hebrew") + '</div>';
+
+      flagged.forEach(function(w) {
+        const mt      = w.mistranslation || {};
+        const isDraft = (mt.author || "").indexOf("draft") !== -1;
+        const origCls = lang === "greek" ? "greek-word" : "hebrew-word";
+
+        let crossRefHtml = "";
+        if (mt.cross_refs && mt.cross_refs.length) {
+          crossRefHtml = '<div class="cross-refs">';
+          mt.cross_refs.forEach(function(r) {
+            crossRefHtml += '<span class="cross-ref" onclick="jumpTo(\'' + esc(r) + '\')">' + esc(r) + '</span>';
+          });
+          crossRefHtml += '</div>';
+        }
+
+        html += '<div class="word-card">';
+
+        // Header: original word, transliteration, Strong's
+        html += '<div class="word-header">';
+        html += '<span class="word-original ' + origCls + '">' + esc(w.original) + '</span>';
+        if (w.translit) html += '<span class="word-translit">' + esc(w.translit) + '</span>';
+        if (w.strong)   html += '<span class="word-strong">' + esc(w.strong) + '</span>';
+        html += '</div>';
+
+        // Body
+        html += '<div class="word-body">';
+
+        // Compare: flattened vs real
+        html += '<div class="translation-compare">';
+        html += '<div class="compare-box box-flattened">';
+        html += '<div class="compare-label">English translation says</div>';
+        html += '<div class="compare-value">' + esc(mt.english_flattened || w.gloss || "") + '</div>';
+        html += '</div>';
+        html += '<div class="compare-box box-real">';
+        html += '<div class="compare-label">The original language says</div>';
+        html += '<div class="compare-value">' + esc(w.gloss || (mt.actual_meaning || "").split(".")[0] || "") + '</div>';
+        html += '</div>';
+        html += '</div>';
+
+        // Full meaning
+        if (mt.actual_meaning) {
+          html += '<div class="meaning-block">' + esc(mt.actual_meaning) + '</div>';
+        }
+
+        // Why it matters
+        if (mt.why_mistranslated) {
+          html += '<div class="why-block">';
+          html += '<span class="why-label">Why this matters</span>';
+          html += esc(mt.why_mistranslated);
+          html += '</div>';
+        }
+
+        // Cross refs
+        html += crossRefHtml;
+
+        // Author badge
+        html += '<div class="author-badge ' + (isDraft ? "author-draft" : "author-kahu") + '">';
+        html += isDraft ? "Draft — awaiting Kahu review" : "Kahu Phil Stephens · Ke Aupuni O Ke Akua Press";
+        html += '</div>';
+
+        html += '</div></div>'; // word-body, word-card
+      });
+    }
+
+    // Show all toggle
+    html += '<div class="toggle-wrap">';
+    html += '<button class="toggle-btn" onclick="toggleAll()">';
+    html += showingAll ? "Hide full interlinear" : "Show full word-by-word interlinear";
+    html += '</button></div>';
+
+    // Full interlinear table
+    if (showingAll && allWords.length) {
+      const flaggedStrongs = {};
+      flagged.forEach(function(w) { if (w.strong) flaggedStrongs[w.strong] = true; });
+
+      html += '<div class="interlinear-section">';
+      html += '<div class="section-heading" style="margin-top:1.5rem">Every word in the original language</div>';
+      html += '<table class="interlinear-table"><thead><tr>';
+      html += '<th>Original</th><th>Transliteration</th><th>Strong\'s</th><th>Grammar</th><th>Gloss</th>';
+      html += '</tr></thead><tbody>';
+
+      allWords.forEach(function(w) {
+        const isFlagged = w.strong && flaggedStrongs[w.strong];
+        const origCls   = lang === "greek" ? "greek-word" : "hebrew-word";
+        html += '<tr>';
+        html += '<td class="td-orig ' + origCls + '">' + esc(w.original) + '</td>';
+        html += '<td class="' + (isFlagged ? "td-flagged" : "") + '">' + esc(w.translit) + '</td>';
+        html += '<td style="font-family:monospace;font-size:0.76rem;color:var(--text-faint)">' + esc(w.strong) + '</td>';
+        html += '<td style="font-size:0.73rem;color:var(--text-faint)">' + esc(w.morph) + '</td>';
+        html += '<td>' + esc(w.gloss || w.english) + '</td>';
+        html += '</tr>';
+      });
+
+      html += '</tbody></table></div>';
+    }
+
+    setOutput(html);
+  }
+
+  function setOutput(html) {
+    document.getElementById("output").innerHTML = html;
+  }
+
+  function esc(str) {
+    if (!str) return "";
+    return String(str)
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;");
+  }
+</script>
+
 </body>
 </html>
