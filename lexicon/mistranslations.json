@@ -6,7 +6,6 @@
     "copyright": "© Ke Aupuni O Ke Akua Press. All entries retain copyright.",
     "format_version": 1
   },
-
   "G25": {
     "greek": "ἀγαπάω",
     "translit": "agapaō",
@@ -15,7 +14,13 @@
     "why_mistranslated": "Modern English 'love' collapses at least four distinct Greek words into one. The deliberate, covenantal dimension of agapaō is lost — readers hear 'God loved the world' as warm feeling instead of sovereign, committed self-giving.",
     "root": "agapē (G26)",
     "pos": "verb",
-    "cross_refs": ["John 3:16","John 13:34","Romans 5:8","1 John 4:8","1 Corinthians 13:4-7"],
+    "cross_refs": [
+      "John 3:16",
+      "John 13:34",
+      "Romans 5:8",
+      "1 John 4:8",
+      "1 Corinthians 13:4-7"
+    ],
     "author": "Kahu Phil Stephens"
   },
   "G26": {
@@ -26,7 +31,13 @@
     "why_mistranslated": "English 'love' cannot bear the covenantal weight. Agapē is commandable; feelings are not. Translation collapses this distinction and makes Jesus's commands sound impossible or shallow.",
     "root": "agapaō (G25)",
     "pos": "noun feminine",
-    "cross_refs": ["John 3:16","Romans 8:35","1 Corinthians 13","1 John 4:7-8","Ephesians 3:18-19"],
+    "cross_refs": [
+      "John 3:16",
+      "Romans 8:35",
+      "1 Corinthians 13",
+      "1 John 4:7-8",
+      "Ephesians 3:18-19"
+    ],
     "author": "Kahu Phil Stephens"
   },
   "G932": {
@@ -37,7 +48,13 @@
     "why_mistranslated": "Western political frameworks imported a static 'kingdom-as-place' meaning. Readers hear 'kingdom of heaven' and think of a location rather than the active reign of God breaking in. This single mistranslation has shaped Western Christianity away from Jesus's actual teaching.",
     "root": "basileus (G935) — king",
     "pos": "noun feminine",
-    "cross_refs": ["Matthew 4:17","Matthew 6:33","Luke 17:20-21","John 18:36","Colossians 1:13"],
+    "cross_refs": [
+      "Matthew 4:17",
+      "Matthew 6:33",
+      "Luke 17:20-21",
+      "John 18:36",
+      "Colossians 1:13"
+    ],
     "author": "Kahu Phil Stephens"
   },
   "G935": {
@@ -48,7 +65,13 @@
     "why_mistranslated": "Modern readers picture ceremonial European monarchs. The NT basileus is war-leader, judge, priest, and representative of the divine rolled into one. The weight of 'Christ is King' is lost when readers hear it through post-Enlightenment monarchy imagery.",
     "root": "basis (foundation/step)",
     "pos": "noun masculine",
-    "cross_refs": ["Matthew 2:2","Matthew 27:37","Revelation 19:16","1 Timothy 6:15","John 18:37"],
+    "cross_refs": [
+      "Matthew 2:2",
+      "Matthew 27:37",
+      "Revelation 19:16",
+      "1 Timothy 6:15",
+      "John 18:37"
+    ],
     "author": "Kahu Phil Stephens"
   },
   "G4151": {
@@ -59,7 +82,13 @@
     "why_mistranslated": "'Ghost' in KJV English now means apparition of the dead. 'Spirit' has become disembodied abstraction. The breath/wind dimension — the same word that describes God's breath in Genesis 2:7 — is lost. Readers miss that Jesus is making a physical pun in John 3.",
     "root": "pneō — to blow, to breathe",
     "pos": "noun neuter",
-    "cross_refs": ["John 3:5-8","John 4:24","Romans 8:9-16","1 Corinthians 2:10-14","Genesis 1:2 (LXX)"],
+    "cross_refs": [
+      "John 3:5-8",
+      "John 4:24",
+      "Romans 8:9-16",
+      "1 Corinthians 2:10-14",
+      "Genesis 1:2 (LXX)"
+    ],
     "author": "Kahu Phil Stephens"
   },
   "G2222": {
@@ -70,7 +99,13 @@
     "why_mistranslated": "Greek has two words for life (zōē and bios); English has one. The NT's distinction between ordinary biological life and God's own quality of life collapses. 'Eternal life' gets read as duration when the primary meaning is QUALITY — God's kind of life, here now.",
     "root": "zaō (G2198) — to live",
     "pos": "noun feminine",
-    "cross_refs": ["John 1:4","John 10:10","John 17:3","1 John 5:12","Romans 6:23"],
+    "cross_refs": [
+      "John 1:4",
+      "John 10:10",
+      "John 17:3",
+      "1 John 5:12",
+      "Romans 6:23"
+    ],
     "author": "Kahu Phil Stephens"
   },
   "G165": {
@@ -81,7 +116,13 @@
     "why_mistranslated": "Translating aiōn/aiōnios as 'eternal/forever' imports Greek philosophical ideas of timeless duration. The Hebrew-rooted NT concept is about QUALITY of age, not infinite time. Major theological confusions about 'eternal punishment' and 'eternal life' trace back to this flattening.",
     "root": "aei (always) + ōn (being)",
     "pos": "noun masculine",
-    "cross_refs": ["Matthew 12:32","Galatians 1:4","Ephesians 1:21","Hebrews 9:26","John 17:3"],
+    "cross_refs": [
+      "Matthew 12:32",
+      "Galatians 1:4",
+      "Ephesians 1:21",
+      "Hebrews 9:26",
+      "John 17:3"
+    ],
     "author": "Kahu Phil Stephens"
   },
   "G4982": {
@@ -92,7 +133,13 @@
     "why_mistranslated": "Evangelical English narrowed 'saved' to mean 'going to heaven when you die.' The Koine sōzō is holistic: physical healing, social restoration, forgiveness, deliverance from danger. The woman with the bleeding was 'saved' (healed). Blind Bartimaeus was 'saved' (given sight). Collapsing sōzō to eternal salvation loses the gospel's wholeness.",
     "root": "sōs (safe, whole)",
     "pos": "verb",
-    "cross_refs": ["Matthew 9:22","Luke 7:50","John 3:17","Romans 10:9","Ephesians 2:8"],
+    "cross_refs": [
+      "Matthew 9:22",
+      "Luke 7:50",
+      "John 3:17",
+      "Romans 10:9",
+      "Ephesians 2:8"
+    ],
     "author": "Kahu Phil Stephens"
   },
   "G3056": {
@@ -103,7 +150,13 @@
     "why_mistranslated": "English 'word' is a label for a spoken sound. Logos is the ORDERING REASON behind reality, the expressed mind of God. When John 1:1 reads 'In the beginning was the Word,' readers hear 'utterance' when they should hear 'the reasoning, ordering intelligence of God made personal.'",
     "root": "legō — to speak, to reason",
     "pos": "noun masculine",
-    "cross_refs": ["John 1:1-14","Revelation 19:13","1 John 1:1","Hebrews 4:12","Colossians 1:17"],
+    "cross_refs": [
+      "John 1:1-14",
+      "Revelation 19:13",
+      "1 John 1:1",
+      "Hebrews 4:12",
+      "Colossians 1:17"
+    ],
     "author": "Kahu Phil Stephens"
   },
   "G5485": {
@@ -114,7 +167,13 @@
     "why_mistranslated": "'Unmerited favor' makes grace transactional — 'I don't deserve it but God gives it anyway.' The Greek is relational: grace flows from God's own joy in giving, not from an assessment of our worthiness. The giver's gladness is the engine.",
     "root": "chairō — to rejoice",
     "pos": "noun feminine",
-    "cross_refs": ["John 1:14","Romans 3:24","Ephesians 2:8","2 Corinthians 12:9","Titus 2:11"],
+    "cross_refs": [
+      "John 1:14",
+      "Romans 3:24",
+      "Ephesians 2:8",
+      "2 Corinthians 12:9",
+      "Titus 2:11"
+    ],
     "author": "Kahu Phil Stephens"
   },
   "G4102": {
@@ -125,10 +184,15 @@
     "why_mistranslated": "Modern English 'faith' has drifted toward 'belief without evidence.' Biblical pistis is trust born from evidence, expressed through loyalty, demonstrated through action. Hebrews 11 is not about sincere belief — it's about people who acted on what God said.",
     "root": "peithomai — to be persuaded",
     "pos": "noun feminine",
-    "cross_refs": ["Romans 1:17","Hebrews 11:1","Galatians 2:20","James 2:17","Habakkuk 2:4"],
+    "cross_refs": [
+      "Romans 1:17",
+      "Hebrews 11:1",
+      "Galatians 2:20",
+      "James 2:17",
+      "Habakkuk 2:4"
+    ],
     "author": "Kahu Phil Stephens"
   },
-
   "H4428": {
     "hebrew": "מֶלֶךְ",
     "translit": "melek",
@@ -137,7 +201,13 @@
     "why_mistranslated": "Modern ceremonial-monarch imagery replaces the ancient reality of the king as war-leader, judge, and divine representative. The theological weight of 'YHWH is King' loses its bite when readers imagine a crown and throne instead of sovereign active rule.",
     "root": "m-l-k (to reign, to counsel)",
     "pos": "noun masculine",
-    "cross_refs": ["Psalm 24:7-10","Psalm 93:1","Isaiah 6:5","Zechariah 14:9","1 Samuel 8:7"],
+    "cross_refs": [
+      "Psalm 24:7-10",
+      "Psalm 93:1",
+      "Isaiah 6:5",
+      "Zechariah 14:9",
+      "1 Samuel 8:7"
+    ],
     "author": "Kahu Phil Stephens"
   },
   "H4438": {
@@ -148,7 +218,13 @@
     "why_mistranslated": "Same flattening as basileia. 'Kingdom' in English points to a place; malkuth points to active rule. When the Lord's Prayer says 'thy kingdom come,' Jesus is praying for God's RULE to arrive and transform — not for believers to be transported to a location.",
     "root": "melek (H4428) — king",
     "pos": "noun feminine",
-    "cross_refs": ["Daniel 2:44","Psalm 103:19","Psalm 145:11-13","Obadiah 1:21","Isaiah 9:7"],
+    "cross_refs": [
+      "Daniel 2:44",
+      "Psalm 103:19",
+      "Psalm 145:11-13",
+      "Obadiah 1:21",
+      "Isaiah 9:7"
+    ],
     "author": "Kahu Phil Stephens"
   },
   "H7307": {
@@ -159,7 +235,13 @@
     "why_mistranslated": "English has separate words for 'spirit,' 'wind,' and 'breath' — treating them as different categories. Hebrew sees them as one reality. When Genesis says 'the ruach of God moved,' readers miss the layered physicality. God's breath is God's wind is God's Spirit.",
     "root": "r-w-ch (to breathe, to be spacious)",
     "pos": "noun feminine/masculine",
-    "cross_refs": ["Genesis 1:2","Genesis 2:7","Ezekiel 37:1-14","Isaiah 61:1","Joel 2:28"],
+    "cross_refs": [
+      "Genesis 1:2",
+      "Genesis 2:7",
+      "Ezekiel 37:1-14",
+      "Isaiah 61:1",
+      "Joel 2:28"
+    ],
     "author": "Kahu Phil Stephens"
   },
   "H2617": {
@@ -170,7 +252,13 @@
     "why_mistranslated": "Every English rendering picks up one dimension and loses the others. 'Mercy' loses the covenant loyalty. 'Lovingkindness' loses the weight. 'Steadfast love' loses the relational commitment. Chesed is all of it at once — and the OT's repeated claim that YHWH's defining characteristic is chesed never lands in English.",
     "root": "possibly related to chasad — to bow down in kindness",
     "pos": "noun masculine",
-    "cross_refs": ["Exodus 34:6-7","Psalm 136","Hosea 6:6","Micah 6:8","Lamentations 3:22-23"],
+    "cross_refs": [
+      "Exodus 34:6-7",
+      "Psalm 136",
+      "Hosea 6:6",
+      "Micah 6:8",
+      "Lamentations 3:22-23"
+    ],
     "author": "Kahu Phil Stephens"
   },
   "H6666": {
@@ -181,7 +269,13 @@
     "why_mistranslated": "Western theology (especially post-Reformation) made 'righteousness' mean legal standing before God. The OT meaning is relational and social — doing right by the vulnerable, keeping covenant. When the prophets cry for 'righteousness,' they mean justice for the poor, not individuals attaining moral purity.",
     "root": "tsadeq (H6663) — to be right/just",
     "pos": "noun feminine",
-    "cross_refs": ["Genesis 15:6","Deuteronomy 6:25","Isaiah 1:27","Amos 5:24","Micah 6:8"],
+    "cross_refs": [
+      "Genesis 15:6",
+      "Deuteronomy 6:25",
+      "Isaiah 1:27",
+      "Amos 5:24",
+      "Micah 6:8"
+    ],
     "author": "Kahu Phil Stephens"
   },
   "H7965": {
@@ -192,7 +286,13 @@
     "why_mistranslated": "English 'peace' is negative — the absence of war. Shalom is positive — the presence of whole flourishing. The Messianic hope of shalom is not just 'no more fighting' but complete restoration of all things to thriving relationship.",
     "root": "shalem — to be whole, to be complete",
     "pos": "noun masculine",
-    "cross_refs": ["Isaiah 9:6","Isaiah 53:5","Numbers 6:24-26","Jeremiah 29:7","John 14:27"],
+    "cross_refs": [
+      "Isaiah 9:6",
+      "Isaiah 53:5",
+      "Numbers 6:24-26",
+      "Jeremiah 29:7",
+      "John 14:27"
+    ],
     "author": "Kahu Phil Stephens"
   },
   "H1285": {
@@ -203,7 +303,13 @@
     "why_mistranslated": "Modern 'covenant' sounds like a legal contract or corporate agreement. Berith is relational, blood-sealed, identity-forming. When Scripture says God 'cut a covenant' with Abraham, readers miss the slaughtered animals, the walk between the pieces, the self-curse if the covenant is broken.",
     "root": "uncertain — possibly bara (to cut) or baru (Akkadian: bond)",
     "pos": "noun feminine",
-    "cross_refs": ["Genesis 15:18","Genesis 17:1-14","Exodus 24:7-8","Jeremiah 31:31-34","Hebrews 8:6"],
+    "cross_refs": [
+      "Genesis 15:18",
+      "Genesis 17:1-14",
+      "Exodus 24:7-8",
+      "Jeremiah 31:31-34",
+      "Hebrews 8:6"
+    ],
     "author": "Kahu Phil Stephens"
   },
   "H8451": {
@@ -214,7 +320,13 @@
     "why_mistranslated": "Translating torah as 'law' imports Roman and Enlightenment concepts of statutory legislation. The Hebrew is closer to 'instruction' or 'teaching' — the guidance of a parent or shepherd, not the pronouncement of a court. Paul's critique of 'works of the law' makes different sense when torah means 'instruction' instead of 'legal code.'",
     "root": "yarah — to throw, to shoot, to point",
     "pos": "noun feminine",
-    "cross_refs": ["Psalm 1:2","Psalm 119:97","Isaiah 2:3","Matthew 5:17","Romans 7:12"],
+    "cross_refs": [
+      "Psalm 1:2",
+      "Psalm 119:97",
+      "Isaiah 2:3",
+      "Matthew 5:17",
+      "Romans 7:12"
+    ],
     "author": "Kahu Phil Stephens"
   },
   "H430": {
@@ -225,7 +337,13 @@
     "why_mistranslated": "Translating as singular 'God' loses the plural-of-fullness nuance. The grammatical choice matters theologically — elohim with singular verbs preserves both unity and fullness in a way 'God' alone does not.",
     "root": "el — God, power, might",
     "pos": "noun masculine plural (used with singular verbs for the one God)",
-    "cross_refs": ["Genesis 1:1","Deuteronomy 6:4","Psalm 82:1","John 10:34-35","Genesis 1:26-27"],
+    "cross_refs": [
+      "Genesis 1:1",
+      "Deuteronomy 6:4",
+      "Psalm 82:1",
+      "John 10:34-35",
+      "Genesis 1:26-27"
+    ],
     "author": "Kahu Phil Stephens"
   },
   "H3068": {
@@ -236,7 +354,13 @@
     "why_mistranslated": "Substituting 'LORD' turns the personal name into a title. YHWH is to Elohim as 'Philip' is to 'pastor.' When Exodus says 'I am YHWH your Elohim,' it's saying 'I am Yahweh, your God' — name + title. Rendering both as 'the LORD your God' loses the intimate naming that defines covenant relationship.",
     "root": "hayah — to be, to exist, to become",
     "pos": "proper noun — the personal name of God",
-    "cross_refs": ["Exodus 3:14-15","Exodus 34:5-7","Psalm 68:4","Isaiah 42:8","John 8:58"],
+    "cross_refs": [
+      "Exodus 3:14-15",
+      "Exodus 34:5-7",
+      "Psalm 68:4",
+      "Isaiah 42:8",
+      "John 8:58"
+    ],
     "author": "Kahu Phil Stephens"
   },
   "H2421": {
@@ -247,7 +371,13 @@
     "why_mistranslated": "English 'live' means biological survival. Hebrew chayah means flourishing — relational, economic, spiritual, physical thriving. 'Choose life' in Deut 30:19 is not 'avoid death' but 'choose the whole flourishing that covenant with God brings.'",
     "root": "ch-y-h (to live, to give life)",
     "pos": "verb",
-    "cross_refs": ["Genesis 2:7","Deuteronomy 30:19","Ezekiel 37:5-6","John 10:10","Psalm 16:11"],
+    "cross_refs": [
+      "Genesis 2:7",
+      "Deuteronomy 30:19",
+      "Ezekiel 37:5-6",
+      "John 10:10",
+      "Psalm 16:11"
+    ],
     "author": "Kahu Phil Stephens"
   },
   "H3519": {
@@ -258,10 +388,15 @@
     "why_mistranslated": "English 'glory' has become religious jargon — vague, ethereal, light-show. Kabod is WEIGHT. Substance. Pressing, undeniable presence. When Moses asked to see God's kabod, he was asking to feel the weight of God's reality. The word teaches a physics of the divine.",
     "root": "kabad — to be heavy, to be weighty",
     "pos": "noun masculine",
-    "cross_refs": ["Exodus 24:16-17","Isaiah 6:3","Psalm 19:1","John 1:14","Habakkuk 2:14"],
+    "cross_refs": [
+      "Exodus 24:16-17",
+      "Isaiah 6:3",
+      "Psalm 19:1",
+      "John 1:14",
+      "Habakkuk 2:14"
+    ],
     "author": "Kahu Phil Stephens"
   },
-
   "A4437": {
     "aramaic": "מַלְכוּ",
     "translit": "malkuth (Aramaic)",
@@ -270,7 +405,13 @@
     "why_mistranslated": "Same flattening as Hebrew malkuth and Greek basileia. The Aramaic shifts in Daniel signal a universal message; rendering as static 'kingdom' obscures both the rule/reign emphasis and the cross-linguistic continuity.",
     "root": "melek — king",
     "pos": "noun feminine",
-    "cross_refs": ["Daniel 2:44","Daniel 4:3","Daniel 7:14","Daniel 7:27","Matthew 6:10"],
+    "cross_refs": [
+      "Daniel 2:44",
+      "Daniel 4:3",
+      "Daniel 7:14",
+      "Daniel 7:27",
+      "Matthew 6:10"
+    ],
     "author": "Kahu Phil Stephens"
   },
   "A426": {
@@ -281,526 +422,829 @@
     "why_mistranslated": "Translating simply as 'God' loses the cross-Semitic continuity. Elah, Eloah, Elohim, Allah — all share the same Semitic root for deity. When Daniel's pagan kings recognize 'the God of heaven,' the shared-root word carries weight that a bare English 'God' cannot.",
     "root": "el — God, might",
     "pos": "noun masculine",
-    "cross_refs": ["Daniel 2:20","Daniel 3:28","Daniel 6:26","Ezra 5:2","Ezra 6:12"],
+    "cross_refs": [
+      "Daniel 2:20",
+      "Daniel 3:28",
+      "Daniel 6:26",
+      "Ezra 5:2",
+      "Ezra 6:12"
+    ],
     "author": "Kahu Phil Stephens"
   },
-
+  "G2212": {
+    "greek": "ζητέω",
+    "translit": "zēteō",
+    "english_flattened": "seek (find it once and you are done)",
+    "actual_meaning": "To seek — but in the present imperative tense the action never stops. Picture a woman who has lost a coin and turns her whole house upside down, moving every piece of furniture, sweeping every corner, until she finds it. That is what Jesus is commanding in Matthew 6:33. Keep seeking. Keep pursuing. Do not stop until the Kingdom of God is the organizing direction of your entire life. The present tense in Koine carries continuous, unending action — a lifestyle command, not a one-time task.",
+    "why_mistranslated": "English 'seek' sounds like a single event — you seek, you find, you move on. The Koine present imperative is a lifetime direction. Jesus is not giving a task to complete. He is describing the posture of your whole life.",
+    "root": "zētēsis — a seeking, an inquiry",
+    "pos": "verb — present active imperative",
+    "cross_refs": [
+      "Matthew 6:33",
+      "Luke 11:9-10",
+      "Matthew 7:7-8",
+      "Luke 15:8-10",
+      "Jeremiah 29:13"
+    ],
+    "author": "Kahu Phil Stephens"
+  },
   "G1525": {
     "greek": "εἰσέρχομαι",
     "translit": "eiserchomai",
     "english_flattened": "enter (walk through a door)",
-    "actual_meaning": "To come into, to go into, to enter INTO the experience of. Composite of eis (into) + erchomai (come/go). Carries the sense not just of crossing a threshold but of entering into participation, being absorbed into the reality of what is being entered. When Jesus says 'enter the Kingdom' (Matt 18:3, 19:23-24), He means enter INTO the experience of God's reign — not walk through a door into a place. To enter a gym is not the same as to enter the experience of training.",
-    "why_mistranslated": "English 'enter' is referential — a line crossed, a door passed. Eiserchomai is descriptive — entering INTO the experiential reality. Jesus is not asking whether you'll make it through the turnstile at death but whether you'll let the Kingdom shape you now. The mistranslation turns the gospel of transformation into a gospel of admission.",
+    "actual_meaning": "To enter INTO the experience of something — not merely cross a threshold. You can walk into a gym and never touch a weight. You entered the building but not the experience of training. When Jesus says in Matthew 18:3 that you must enter the Kingdom like a child, He is not talking about getting through a gate when you die. He is talking about entering INTO the living experience of God's reign — being reshaped by it, humbled by it, transformed by it right now. The composite eis (into) + erchomai (to come) describes immersion, not admission.",
+    "why_mistranslated": "English 'enter' is a boundary word — you cross a line and you are in. The Koine is an immersion word. This one mistranslation turned the gospel of transformation into a gospel of admission. People spend their lives asking 'will I get in?' when Jesus was asking 'are you experiencing the Kingdom now?'",
     "root": "eis (into) + erchomai (to come, to go)",
     "pos": "verb",
-    "cross_refs": ["Matthew 18:3","Matthew 19:23-24","Mark 10:15","Luke 13:24","John 10:9"],
-    "author": "draft — awaiting Kahu review"
+    "cross_refs": [
+      "Matthew 18:3",
+      "Matthew 19:23-24",
+      "Mark 10:15",
+      "Luke 13:24",
+      "John 10:9"
+    ],
+    "author": "Kahu Phil Stephens"
   },
   "G3340": {
     "greek": "μετανοέω",
     "translit": "metanoeō",
-    "english_flattened": "repent (feel sorry, be contrite)",
-    "actual_meaning": "To change one's mind — but far deeper than emotional regret. Meta (after, change) + noeō (to think, to perceive). A complete reorientation of mind, perception, and life direction. John the Baptist's and Jesus's opening message (Matt 3:2, 4:17) was not 'feel sorry for your sins' but 'reorient everything, because the Kingdom is arriving.' Repentance is turning, not weeping.",
-    "why_mistranslated": "Latin Vulgate translated metanoeō as 'paenitentiam agite' ('do penance'), which shaped Western understanding toward sorrow and ritual. But the Greek is cognitive and volitional — change your mind, reorient your life. The evangelical 'feel bad about your sins' picture is a distant descendant of the original Koine call to wholesale life-direction change.",
-    "root": "meta (change) + noeō (to think)",
+    "english_flattened": "repent (feel sorry for your sins)",
+    "actual_meaning": "To completely change direction — in your mind and your life. Meta means change, noeō means to think and perceive. A man walking toward a cliff who turns completely around and walks the other way — that is metanoeō. When John the Baptist and Jesus both opened their ministry with this word, they were not asking people to cry. They were saying: everything you have been walking toward, turn away from it, because God's Kingdom is arriving and you need to face the right direction to receive it.",
+    "why_mistranslated": "The Latin Vulgate translated this as 'do penance.' That single decision shaped a thousand years of Western Christianity into guilt, confession rituals, and emotional sorrow. The Koine word has no tears in it. It has a change of direction.",
+    "root": "meta (change) + noeō (to think, to perceive)",
     "pos": "verb",
-    "cross_refs": ["Matthew 3:2","Matthew 4:17","Mark 1:15","Luke 15:7","Acts 2:38"],
-    "author": "draft — awaiting Kahu review"
+    "cross_refs": [
+      "Matthew 3:2",
+      "Matthew 4:17",
+      "Mark 1:15",
+      "Luke 15:7",
+      "Acts 2:38"
+    ],
+    "author": "Kahu Phil Stephens"
+  },
+  "G3340_name": {
+    "greek": "μετάνοια",
+    "translit": "metanoia",
+    "english_flattened": "repentance (religious sorrow, penance)",
+    "actual_meaning": "A complete reorientation of mind and life direction. The noun form of metanoeō. Not an emotion — a turning. The Hebrew equivalent is shuv, which means to turn around and walk back. Repentance in the Biblical sense is not feeling bad about where you have been. It is changing the direction you are heading. Paul distinguishes in 2 Corinthians 7:10 between godly metanoia that leads to life and worldly sorrow that leads only to death. The sorrow is not the repentance — the turning is.",
+    "why_mistranslated": "Same Latin penance problem as metanoeō. The church made repentance into an emotional and ritual transaction. The Scripture makes it a directional one.",
+    "root": "meta (change) + noia (mind)",
+    "pos": "noun feminine",
+    "cross_refs": [
+      "Matthew 3:8",
+      "Acts 2:38",
+      "Acts 11:18",
+      "Romans 2:4",
+      "2 Corinthians 7:10"
+    ],
+    "author": "Kahu Phil Stephens"
   },
   "G1577": {
     "greek": "ἐκκλησία",
     "translit": "ekklēsia",
-    "english_flattened": "church (religious building or denomination)",
-    "actual_meaning": "Called-out assembly. In classical Greek, the ekklēsia was the civic assembly of a Greek city — the citizens called out of their homes to gather for governance and decision-making. Jesus's choice of this word (Matt 16:18) is deliberately political: His followers are a counter-civic assembly, the called-out citizens of the Kingdom. NOT a building. NOT a denomination. NOT a religious organization. A gathered, governing community of Kingdom citizens.",
-    "why_mistranslated": "English 'church' (from kuriakon, 'belonging to the Lord,' referring to buildings) reversed the meaning. Ekklēsia went from 'called-out civic assembly' to 'sacred building,' then to 'denomination.' Western Christianity has spent 1,800 years confusing the building, the institution, and the gathered people who ARE the ekklēsia.",
+    "english_flattened": "church (a building, a denomination, a Sunday service)",
+    "actual_meaning": "The called-out assembly. In the Greek world, the ekklēsia was the civic assembly of a city — citizens called out of their homes to gather and govern their community together. It was a political, community word about people exercising their shared identity. When Jesus said 'I will build my ekklēsia' in Matthew 16:18, He was not talking about constructing a building. He was describing a gathered people called out of the old order into the new one — the citizens of the Kingdom, assembled and functioning together.",
+    "why_mistranslated": "The English word 'church' comes from kuriakon, meaning a building belonging to the Lord. Somewhere in translation history, the word for the gathered people got replaced by the word for the building they sometimes meet in. Most Christians now think church is a place you go instead of a people you are.",
     "root": "ek (out) + kaleō (to call)",
     "pos": "noun feminine",
-    "cross_refs": ["Matthew 16:18","Matthew 18:17","Acts 2:47","1 Corinthians 12:27","Ephesians 1:22-23"],
-    "author": "draft — awaiting Kahu review"
+    "cross_refs": [
+      "Matthew 16:18",
+      "Matthew 18:17",
+      "Acts 2:47",
+      "1 Corinthians 12:27",
+      "Ephesians 1:22-23"
+    ],
+    "author": "Kahu Phil Stephens"
   },
   "G1343": {
     "greek": "δικαιοσύνη",
     "translit": "dikaiosynē",
     "english_flattened": "righteousness (private moral purity)",
-    "actual_meaning": "Righteousness, justice, right-relationship. The Greek equivalent of Hebrew tsedaqah. Carries both the legal/forensic sense (being declared right) AND the relational/ethical sense (being in right relationship, doing right by others). Paul's usage in Romans has both dimensions — declaration by God, and the resulting lived right-relationship.",
-    "why_mistranslated": "Post-Reformation theology emphasized the forensic/legal meaning ('declared righteous') at the expense of the relational/ethical. When Jesus says 'seek first the Kingdom and His dikaiosynē' (Matt 6:33), He means seek God's just-order in all relationships — not seek legal standing alone.",
+    "actual_meaning": "Right relationship — with God, with other people, with the created world. The Greek equivalent of Hebrew tsedaqah, carrying the same relational weight. It is not primarily about your personal moral record. It is about being in right standing with the people around you, keeping covenant, doing right by the poor and the vulnerable. When Jesus in Matthew 6:33 says seek His dikaiosynē, He means seek the right-ordering of all relationships the way God intends — justice flowing like water, the broken restored.",
+    "why_mistranslated": "Post-Reformation theology made righteousness a legal verdict — your standing before the court of God. The relational and social dimension was largely lost. When the prophets cried out for righteousness, they were not asking people to have better devotional lives. They were demanding that the poor be treated justly.",
     "root": "dikaios (just, righteous)",
     "pos": "noun feminine",
-    "cross_refs": ["Matthew 6:33","Romans 1:17","Romans 3:21-26","Philippians 3:9","2 Corinthians 5:21"],
-    "author": "draft — awaiting Kahu review"
+    "cross_refs": [
+      "Matthew 6:33",
+      "Romans 1:17",
+      "Romans 3:21-26",
+      "Philippians 3:9",
+      "Amos 5:24"
+    ],
+    "author": "Kahu Phil Stephens"
   },
   "G40": {
     "greek": "ἅγιος",
     "translit": "hagios",
-    "english_flattened": "holy (morally pure / saintly)",
-    "actual_meaning": "Set apart, dedicated, distinct. The root idea is not moral purity but SEPARATION — something set apart for a specific purpose. The Hebrew equivalent qadosh carries the same emphasis. God is hagios because He is absolutely distinct from creation; saints (hagioi) are 'set-apart ones,' not necessarily morally superior. The word describes category, not quality.",
-    "why_mistranslated": "English 'holy' has come to mean moral perfection or religious superiority ('holier than thou'). The Greek is about SEPARATION and DEDICATION. Paul calls all believers 'hagioi' (saints, set-apart ones) — not because they're morally perfect but because they're dedicated to God's purposes.",
-    "root": "hagos — religious awe / that which is reverenced",
+    "english_flattened": "holy (morally perfect, untouched by the world)",
+    "actual_meaning": "Set apart. Dedicated. Different by design. Holiness in the Greek is not first about moral perfection — it is about being in a distinct category, consecrated for a specific purpose. The ground at the burning bush was hagios not because it had better soil but because God was present there and had set it apart. When Paul addresses all believers as hagioi — saints, holy ones — he is not saying they achieved moral perfection. He is saying they have been set apart, called out, designated for God's purposes.",
+    "why_mistranslated": "English 'holy' has come to mean impossibly pure and morally flawless. This makes 'be holy as I am holy' sound like a crushing impossibility. The Koine reading makes it an identity statement — you are set apart, live from that reality.",
+    "root": "hagos — religious awe",
     "pos": "adjective",
-    "cross_refs": ["Romans 1:7","1 Corinthians 1:2","1 Peter 1:15-16","Revelation 4:8","Leviticus 11:44"],
-    "author": "draft — awaiting Kahu review"
+    "cross_refs": [
+      "Romans 1:7",
+      "1 Corinthians 1:2",
+      "1 Peter 1:15-16",
+      "Revelation 4:8",
+      "Leviticus 11:44"
+    ],
+    "author": "Kahu Phil Stephens"
   },
   "H6918": {
     "hebrew": "קָדוֹשׁ",
     "translit": "qadosh",
-    "english_flattened": "holy (morally pure)",
-    "actual_meaning": "Set apart, separate, distinct. Same root idea as Greek hagios. YHWH is qadosh (holy) because He is absolutely other, absolutely distinct from creation. The seraphim cry 'qadosh, qadosh, qadosh' (Isa 6:3) — 'set-apart, set-apart, set-apart.' Israel is called to be qadosh not because they earn moral superiority but because they are dedicated to YHWH's purposes.",
-    "why_mistranslated": "Same flattening as hagios. 'Holy' has come to mean moral perfection. Qadosh means categorically distinct. When God says 'be holy as I am holy,' He's not demanding perfection — He's calling Israel to the same dedicated, distinct way of life that reflects His own distinct character.",
+    "english_flattened": "holy (morally pure, religiously superior)",
+    "actual_meaning": "Set apart. Separate. Categorically different. YHWH is qadosh because He is utterly unlike everything else in existence. When the seraphim cry qadosh, qadosh, qadosh in Isaiah 6, they are not announcing that God has passed a moral test. They are declaring that He is beyond all comparison — incomparably other, absolutely distinct. When Israel is called to be a qadosh nation, they are called to live visibly different from the nations around them — not better in pride but distinct in purpose, shaped by YHWH's character.",
+    "why_mistranslated": "Making qadosh mean moral perfection turns holiness into a standard no one can reach and makes God's holiness into a wall between Him and humanity rather than the description of His incomparable nature.",
     "root": "q-d-sh (to be set apart)",
     "pos": "adjective",
-    "cross_refs": ["Leviticus 11:44","Isaiah 6:3","Psalm 99:9","Exodus 19:6","1 Peter 1:15-16"],
-    "author": "draft — awaiting Kahu review"
+    "cross_refs": [
+      "Leviticus 11:44",
+      "Isaiah 6:3",
+      "Psalm 99:9",
+      "Exodus 19:6",
+      "1 Peter 1:15-16"
+    ],
+    "author": "Kahu Phil Stephens"
   },
   "G266": {
     "greek": "ἁμαρτία",
     "translit": "hamartia",
-    "english_flattened": "sin (moral wrong / crime against God)",
-    "actual_meaning": "Missing the mark. Archery imagery — an arrow that fails to hit the target. Hamartia is not primarily about moral transgression but about FAILURE TO REACH the intended purpose. Humans were created for a target (God's image, right relationship, flourishing); sin is any failure to hit that target — whether by rebellion, ignorance, weakness, or drift.",
-    "why_mistranslated": "English 'sin' has become a legal/moral category — a crime committed against God's rules. Hamartia is missing the point of what humans were made for. The difference matters: sin as 'rule-breaking' demands punishment; sin as 'missing the target' calls for reorientation. Jesus's way of speaking about sin aligns more with the archery picture than the courtroom.",
-    "root": "a- (not) + meros (a part, share) — to fail to share in, to miss",
+    "english_flattened": "sin (breaking God's rules, committing a crime against God)",
+    "actual_meaning": "Missing the mark. This is an archery word. When an arrow is released and fails to reach the target, that is hamartia. Human beings were made for a target — to bear the image of God, to live in covenant relationship, to flourish the way God designed. Sin is anything that misses that target: rebellion, ignorance, weakness, drift. It is not primarily a crime against a legal code. It is a failure to hit what we were made for. That difference changes everything about what salvation means.",
+    "why_mistranslated": "When sin is a legal category, salvation becomes a legal solution — the penalty is paid, the record is cleared. When sin is missing the mark, salvation becomes restoration — the person is retrained, the aim is corrected, the life is reoriented toward its true purpose.",
+    "root": "a- (not) + meros (a part, share)",
     "pos": "noun feminine",
-    "cross_refs": ["Romans 3:23","1 John 1:8","Matthew 1:21","John 8:34","James 4:17"],
-    "author": "draft — awaiting Kahu review"
+    "cross_refs": [
+      "Romans 3:23",
+      "1 John 1:8",
+      "Matthew 1:21",
+      "John 8:34",
+      "James 4:17"
+    ],
+    "author": "Kahu Phil Stephens"
   },
   "G3788": {
     "greek": "ὀφθαλμός",
     "translit": "ophthalmos",
-    "english_flattened": "eye (physical organ)",
-    "actual_meaning": "Eye — but in Semitic thought behind the Greek (Matt 6:22-23), the eye is the window of perception and generosity. A 'good eye' (ophthalmos haplous) is a generous, single-focused eye; a 'bad eye' (ophthalmos ponēros) is a stingy, envious one. This is Jewish idiom imported into Greek. Jesus's teaching about the 'single eye' is not about literal vision but about generous, undivided attention.",
-    "why_mistranslated": "English readers take 'if thine eye be single' literally or as mystical spiritual vision. The Jewish idiom is about generosity of spirit and undivided focus. Jesus is warning against divided loyalty and stingy heart — not commenting on ocular health or mystical vision.",
+    "english_flattened": "eye (the physical organ of sight)",
+    "actual_meaning": "Eye — but in the Jewish world behind the Koine, the eye described the character of a person's heart. A good eye meant a generous, open-handed, single-focused person. A bad eye meant a stingy, envious, grasping person. When Jesus teaches about the lamp of the body being the eye in Matthew 6:22-23, He is speaking into a Hebrew idiom His audience knew: the way you see the world — with generosity or with envy, with single focus or with divided loyalty — determines whether your whole life is full of light or darkness.",
+    "why_mistranslated": "Reading eye as a physical organ turns this passage into mystical obscurity. Reading it through the Jewish idiom it was spoken from reveals a sharp and practical teaching about the posture of the heart toward God and toward people.",
     "root": "optomai — to see",
     "pos": "noun masculine",
-    "cross_refs": ["Matthew 6:22-23","Matthew 20:15","Luke 11:34","Mark 7:22","Proverbs 22:9"],
-    "author": "draft — awaiting Kahu review"
+    "cross_refs": [
+      "Matthew 6:22-23",
+      "Matthew 20:15",
+      "Luke 11:34",
+      "Mark 7:22",
+      "Proverbs 22:9"
+    ],
+    "author": "Kahu Phil Stephens"
   },
   "G2889": {
     "greek": "κόσμος",
     "translit": "kosmos",
-    "english_flattened": "world (planet Earth / humanity)",
-    "actual_meaning": "Ordered system, arrangement, adornment. Originally meant 'order' — the opposite of chaos. By NT times it referred to the whole ordered creation, but also to the ordered SYSTEM of human society organized in opposition to God. When John says 'do not love the kosmos' (1 John 2:15), he doesn't mean the planet or human beings — he means the system of values, priorities, and powers organized against God's rule. When he says 'God so loved the kosmos' (John 3:16), he means the humans within that system.",
-    "why_mistranslated": "Modern 'world' means 'the planet' or 'all people.' Kosmos is more specific — the ORDERED SYSTEM of human culture, values, and power. 'Do not love the world' does not mean asceticism but resistance to the value-system organized against God. Readers flatten this into either earth-hatred or humanity-hatred, missing Jesus's actual target: the systemic powers.",
+    "english_flattened": "world (the planet Earth, or all humanity)",
+    "actual_meaning": "An ordered system — the arrangement of human civilization around values, priorities, and powers that stand in opposition to God's Kingdom. Kosmos originally meant order, arrangement, the opposite of chaos. By NT times it described both the created order and the system of human society organized around wealth, status, power, and self rather than God. When John says do not love the kosmos (1 John 2:15), he does not mean hate the earth or hate people. He means do not be shaped by the value system of the age. When Jesus says God loved the kosmos (John 3:16), He means the people caught inside that broken system.",
+    "why_mistranslated": "Flattening kosmos to mean the earth or all people loses the systemic critique central to NT theology. John is not asking for earth-hatred. He is asking for resistance to the invisible ordering of life that pulls people away from God.",
     "root": "kosmeō — to order, to arrange",
     "pos": "noun masculine",
-    "cross_refs": ["John 3:16","John 17:14-16","1 John 2:15-17","Romans 12:2","1 Corinthians 7:31"],
-    "author": "draft — awaiting Kahu review"
+    "cross_refs": [
+      "John 3:16",
+      "John 17:14-16",
+      "1 John 2:15-17",
+      "Romans 12:2",
+      "1 Corinthians 7:31"
+    ],
+    "author": "Kahu Phil Stephens"
   },
   "G4561": {
     "greek": "σάρξ",
     "translit": "sarx",
-    "english_flattened": "flesh (physical body / sinful nature)",
-    "actual_meaning": "Flesh — physical human tissue, yes, but in Paul's theology a technical term for human existence LIVED APART FROM the Spirit. Not the body per se (which is 'sōma' and is good) but the human mode of self-reliance, self-trust, self-effort. Paul is NOT saying the body is bad. He's saying human life organized around the self is bad. The body is a temple of the Holy Spirit (1 Cor 6:19); the sarx is what Christ crucifies.",
-    "why_mistranslated": "English 'flesh' as a moral term makes readers think the physical body is bad. This has fueled unhealthy asceticism and body-shame in Christian history. Paul's sarx is a theological category for self-reliant human existence — not a moral verdict on the physical body.",
+    "english_flattened": "flesh (the physical body, which is sinful by nature)",
+    "actual_meaning": "Human life organized around the self, apart from God. Paul uses sarx as a theological term — not a verdict against the physical body. He calls the body a temple of the Holy Spirit (1 Corinthians 6:19) and says God will raise it from the dead. Sarx is the mode of existence in which a person lives by their own strength, trusts their own wisdom, and pursues their own agenda. Self-reliant humanity. That is what is crucified with Christ — not the body, but the self-first way of living.",
+    "why_mistranslated": "Reading sarx as the sinful physical body has caused enormous damage — body shame, contempt for physical life, the idea that becoming more spiritual means becoming less embodied. Paul is not a Greek philosopher who thinks matter is evil. He thinks self-first living is the problem and Spirit-led living is the solution.",
     "root": "sarx — flesh, meat",
     "pos": "noun feminine",
-    "cross_refs": ["Romans 8:5-13","Galatians 5:16-24","John 1:14","1 Corinthians 15:50","Philippians 3:3"],
-    "author": "draft — awaiting Kahu review"
+    "cross_refs": [
+      "Romans 8:5-13",
+      "Galatians 5:16-24",
+      "John 1:14",
+      "1 Corinthians 15:50",
+      "Philippians 3:3"
+    ],
+    "author": "Kahu Phil Stephens"
   },
   "G5590": {
     "greek": "ψυχή",
     "translit": "psychē",
-    "english_flattened": "soul (immortal part of person separate from body)",
-    "actual_meaning": "Life, self, inner being — the WHOLE PERSON as a living creature. Not a disembodied immortal part separate from the body. Hebrew equivalent is nephesh (Gen 2:7: 'man became a living nephesh'). The psychē is the living, breathing, feeling, choosing self — NOT a detachable spiritual substance that floats free at death. The Greek philosophical notion of an immortal soul is foreign to Hebrew Scripture; Paul and the NT writers use psychē mostly in the Hebrew sense.",
-    "why_mistranslated": "Plato's dualism infiltrated Christianity — body bad, soul good, salvation is the soul escaping the body. Scripture resists this: God made humans embodied and will raise them bodily. When Jesus says 'whoever loses his psychē for my sake shall find it,' He doesn't mean 'lose your immortal soul' — He means 'lose your life' (the whole embodied self).",
+    "english_flattened": "soul (an immortal spiritual substance trapped in the body)",
+    "actual_meaning": "Life. Self. The whole living person. Genesis 2:7 says God breathed into Adam and he became a living nephesh — the Greek LXX translates that as living psychē. The psychē is not a detachable part of you that floats free when the body dies. It is you — breathing, feeling, choosing, the whole embodied self that God made and called good. When Jesus says whoever loses his psychē for my sake will find it, He means whoever gives up their whole life will discover what life actually is.",
+    "why_mistranslated": "Plato taught that the soul was immortal and trapped in the body, and death was the soul's liberation. This crept into Christian theology and changed psychē from the whole living person into an immortal spiritual fragment. The result is a Christianity shaped more by Greek philosophy than Hebrew Scripture.",
     "root": "psychō — to breathe, to cool",
     "pos": "noun feminine",
-    "cross_refs": ["Genesis 2:7 (LXX)","Matthew 10:28","Matthew 16:25-26","Hebrews 4:12","1 Thessalonians 5:23"],
-    "author": "draft — awaiting Kahu review"
+    "cross_refs": [
+      "Genesis 2:7 (LXX)",
+      "Matthew 10:28",
+      "Matthew 16:25-26",
+      "Hebrews 4:12",
+      "1 Thessalonians 5:23"
+    ],
+    "author": "Kahu Phil Stephens"
   },
   "G1391": {
     "greek": "δόξα",
     "translit": "doxa",
-    "english_flattened": "glory (abstract religious splendor)",
-    "actual_meaning": "Glory, weight, honor, manifest presence. Greek equivalent of Hebrew kabod. Originally meant 'opinion' or 'what one thinks' — then came to mean the reputation/weight/honor one has. In LXX it translated kabod (weight, substance). In the NT, doxa is God's manifest weighty presence breaking into creation. When Paul speaks of 'the doxa of God,' he means the substantial, undeniable, weighty reality of God made visible.",
-    "why_mistranslated": "Same flattening as kabod. 'Glory' has become vague religious jargon. Doxa is substantial reality, weight, the undeniable presence of God's character made visible. When Christ is said to have 'doxa,' it is not light-show — it is the weight of God's own nature pressing into human sight.",
+    "english_flattened": "glory (vague spiritual brightness, a light show)",
+    "actual_meaning": "Weight. Substance. The undeniable, pressing presence of God's reality. Doxa is the Greek equivalent of the Hebrew kabod — which literally means heaviness. When Moses asked to see God's glory, he was asking to feel the weight of God's reality bearing down on him. When Isaiah says the whole earth is full of His glory, he means the earth is saturated with God's substantial, weighty presence. When John says we beheld His glory in John 1:14, he means they felt the press of who Jesus actually was — the full substance of God in human flesh, impossible to ignore.",
+    "why_mistranslated": "Modern worship has trained people to think of glory as atmosphere or lighting. The Scripture means something far more physical — a weight, a substance, an overwhelming press of divine reality that cannot be dismissed.",
     "root": "dokeō — to think, to seem",
     "pos": "noun feminine",
-    "cross_refs": ["John 1:14","Romans 3:23","2 Corinthians 3:18","Colossians 1:27","Revelation 21:23"],
-    "author": "draft — awaiting Kahu review"
+    "cross_refs": [
+      "John 1:14",
+      "Romans 3:23",
+      "2 Corinthians 3:18",
+      "Colossians 1:27",
+      "Revelation 21:23"
+    ],
+    "author": "Kahu Phil Stephens"
   },
   "G2347": {
     "greek": "θλῖψις",
     "translit": "thlipsis",
-    "english_flattened": "tribulation (apocalyptic suffering / future trial)",
-    "actual_meaning": "Pressure, squeezing, compression. Literally the pressure of being squeezed — as grapes in a press or olives in a mill. Thlipsis is the PRESENT-TENSE pressure of following Christ in a hostile world, not primarily a future apocalyptic event. Paul says 'in the kosmos you will have thlipsis' (John 16:33) — present pressure, not end-times tribulation.",
-    "why_mistranslated": "Translating as 'tribulation' (with end-times capital T) has made readers look for future events and miss present-tense realities. Thlipsis is the daily pressure of living Kingdom values against anti-Kingdom systems. The pressure is now, not later.",
+    "english_flattened": "tribulation (a future apocalyptic seven-year period)",
+    "actual_meaning": "Pressure. Squeezing. The physical sensation of being compressed. Thlipsis comes from pressing grapes or crushing olives — things squeezed until what is inside comes out under pressure. In the NT it describes the present, ongoing experience of following Jesus in a world that has not yet submitted to His rule. Jesus says in John 16:33 you will have thlipsis in this world — not 'you will face a future event' but 'the pressure of living as Kingdom citizens in a world organized against the Kingdom is something you feel right now, every day.'",
+    "why_mistranslated": "End-times theology attached the word tribulation almost entirely to a future prophetic timeline. Millions of Christians now look for thlipsis on a calendar while missing the daily pressure they are already under — and missing the strength that pressure is building in them.",
     "root": "thlibō — to press, to squeeze",
     "pos": "noun feminine",
-    "cross_refs": ["John 16:33","Romans 5:3","Romans 8:35","2 Corinthians 4:17","Revelation 7:14"],
-    "author": "draft — awaiting Kahu review"
+    "cross_refs": [
+      "John 16:33",
+      "Romans 5:3",
+      "Romans 8:35",
+      "2 Corinthians 4:17",
+      "Revelation 7:14"
+    ],
+    "author": "Kahu Phil Stephens"
   },
   "G40_pneuma_agion": {
     "greek": "πνεῦμα ἅγιον",
     "translit": "pneuma hagion",
-    "english_flattened": "Holy Ghost (disembodied specter)",
-    "actual_meaning": "The Set-Apart Breath / The Set-Apart Wind / The Set-Apart Spirit. Combines pneuma (breath/wind/spirit) with hagion (set apart). The KJV 'Holy Ghost' has become misleading in modern English because 'ghost' now means the disembodied dead. The phrase means the dedicated, set-apart Breath of God — the same Breath that moved over the waters in Genesis 1:2 and was breathed into Adam in Genesis 2:7.",
-    "why_mistranslated": "'Ghost' in 1611 English meant 'spirit/breath'; today it means 'apparition of a dead person.' The KJV translation that once served well now misleads. Modern readers hear 'Holy Ghost' as a spooky specter — losing the Genesis/Ezekiel/Pentecost continuity of God's life-giving Breath.",
+    "english_flattened": "Holy Ghost (a spooky, disembodied apparition)",
+    "actual_meaning": "The Set-Apart Breath. The Set-Apart Wind. Pneuma is breath and wind — physical, life-giving, moving. Hagion means set apart, consecrated. The Holy Spirit is the dedicated Breath of God — the same Breath that moved over the waters in Genesis 1:2, that God exhaled into Adam's nostrils in Genesis 2:7, that filled the room at Pentecost like a mighty rushing wind in Acts 2. There is nothing ghostly about it. It is the living, breathing presence of God, moving like wind, giving life like breath.",
+    "why_mistranslated": "In 1611, 'ghost' still meant spirit or breath. In modern English, ghost means the restless dead. Every generation raised on Holy Ghost hears something haunted when they should hear something alive and powerful.",
     "root": "pneuma (G4151) + hagios (G40)",
     "pos": "noun phrase",
-    "cross_refs": ["Matthew 28:19","Acts 2:4","Acts 1:8","John 14:26","Romans 8:26"],
-    "author": "draft — awaiting Kahu review"
+    "cross_refs": [
+      "Matthew 28:19",
+      "Acts 2:4",
+      "Acts 1:8",
+      "John 14:26",
+      "Romans 8:26"
+    ],
+    "author": "Kahu Phil Stephens"
   },
   "G863": {
     "greek": "ἀφίημι",
     "translit": "aphiēmi",
-    "english_flattened": "forgive (pardon legally)",
-    "actual_meaning": "To send away, let go, release, dismiss. Composite of apo (from, away) + hiēmi (to send). When Jesus 'forgives' sins, He SENDS THEM AWAY — dismisses them, releases them, lets them go. The word is not primarily legal but releasing. Also used for releasing a debt, letting go of a grudge, sending someone away.",
-    "why_mistranslated": "English 'forgive' has become legal — pardon a crime, wipe a record. Aphiēmi is physical — send the thing away, release it, dismiss it. When Jesus says 'forgive as you have been forgiven,' He's asking for the active releasing of grudges, not the legal pardoning of enemies.",
+    "english_flattened": "forgive (issue a legal pardon)",
+    "actual_meaning": "To send away. To release. To let go. The word is built from apo (from, away) + hiēmi (to send). When Jesus forgives sins, He sends them away — dismisses them, releases them, sets the person free from their weight. The same word is used for releasing a debt, dismissing a crowd, letting go of a grudge. It is not a courtroom word. It is a releasing word. When Jesus teaches His disciples to forgive as they have been forgiven, He is asking them to actively release — to open their hands and let go.",
+    "why_mistranslated": "Translating aphiēmi as a legal pardon makes forgiveness sound like a transaction — the penalty is cancelled, the record is adjusted. The Koine is more physical — the thing is sent away, released, no longer held. The difference matters: a pardon leaves the crime on record. A releasing lets it go completely.",
     "root": "apo (away) + hiēmi (to send)",
     "pos": "verb",
-    "cross_refs": ["Matthew 6:12","Matthew 18:21-35","Luke 23:34","1 John 1:9","Colossians 3:13"],
-    "author": "draft — awaiting Kahu review"
+    "cross_refs": [
+      "Matthew 6:12",
+      "Matthew 18:21-35",
+      "Luke 23:34",
+      "1 John 1:9",
+      "Colossians 3:13"
+    ],
+    "author": "Kahu Phil Stephens"
   },
   "G2098": {
     "greek": "εὐαγγέλιον",
     "translit": "euangelion",
-    "english_flattened": "gospel (religious message about how to get saved)",
-    "actual_meaning": "Good news — specifically royal/imperial good news. Eu (good) + angelion (announcement). In the Roman empire, euangelion was the term for an imperial announcement — a new emperor ascending, a military victory, a decree. The NT writers deliberately co-opted this imperial word. 'The euangelion of Jesus Christ' means 'the royal imperial announcement that Jesus is King, not Caesar.' It is political and cosmic, not primarily about individual salvation.",
-    "why_mistranslated": "Evangelical English made 'gospel' mean 'the message of how to get saved and go to heaven.' The Koine euangelion is a royal announcement — a declaration of Jesus's kingship over all rival powers. Mark 1:1: 'The beginning of the euangelion of Jesus Christ' is saying 'Here begins the imperial proclamation that Jesus is King.' The individual salvation dimension flows from this cosmic claim, not the other way around.",
-    "root": "eu (good) + angelion (announcement)",
+    "english_flattened": "gospel (the religious message of how to get saved and go to heaven)",
+    "actual_meaning": "Royal good news — specifically the kind of announcement made when a new king took the throne or a great military victory was won. Eu (good) + angelion (announcement). In the Roman world, euangelion was the official proclamation of imperial news. When NT writers call the message of Jesus the euangelion, they are deliberately using the language of empire — and saying that Jesus, not Caesar, is the true King. 'The euangelion of Jesus Christ, the Son of God' is a political declaration: there is a new ruler, and His name is not Caesar.",
+    "why_mistranslated": "Reducing gospel to a private religious message about individual salvation after death strips out the cosmic and political dimensions. The early Christians who were fed to lions were not killed for having a private religious belief. They were killed for declaring that Jesus is Lord — which meant Caesar is not.",
+    "root": "eu (good) + angelion (announcement, message)",
     "pos": "noun neuter",
-    "cross_refs": ["Mark 1:1","Mark 1:14-15","Romans 1:1-4","1 Corinthians 15:1-4","Revelation 14:6"],
-    "author": "draft — awaiting Kahu review"
+    "cross_refs": [
+      "Mark 1:1",
+      "Mark 1:14-15",
+      "Romans 1:1-4",
+      "1 Corinthians 15:1-4",
+      "Revelation 14:6"
+    ],
+    "author": "Kahu Phil Stephens"
   },
   "G1401": {
     "greek": "δοῦλος",
     "translit": "doulos",
-    "english_flattened": "servant (paid employee)",
-    "actual_meaning": "Slave, bondservant. NOT a paid servant or employee. A doulos was legally owned, had no rights of their own, belonged entirely to their master. Paul calls himself 'doulos of Christ Jesus' (Rom 1:1) — owned by, belonging to, devoted entirely to. English versions softening to 'servant' lose the totality of belonging.",
-    "why_mistranslated": "Translators have softened doulos to 'servant' to avoid the uncomfortable slavery connotation. But Paul's self-description as doulos of Christ is theologically precise — he belongs wholly to Christ, not partially. The softening obscures the total commitment language of NT discipleship.",
+    "english_flattened": "servant (a paid employee or hired helper)",
+    "actual_meaning": "Slave. Bondservant. Someone who is owned, not hired. A doulos had no legal rights of their own, no separate agenda, belonged entirely to their master. When Paul opens his letter to the Romans by calling himself doulos of Christ Jesus, he is not saying he has a job working for Jesus. He is saying he belongs entirely to Jesus — his time, his agenda, his life, all of it. This is the language of total belonging, not employment.",
+    "why_mistranslated": "Translators softened doulos to servant to avoid the discomfort of the word slave. But Paul chose this word deliberately. The total-belonging it describes is exactly what he means. Softening it to servant makes discipleship sound like a part-time arrangement.",
     "root": "deō — to bind",
     "pos": "noun masculine",
-    "cross_refs": ["Romans 1:1","Philippians 2:7","1 Corinthians 7:22","Galatians 1:10","Matthew 20:27"],
-    "author": "draft — awaiting Kahu review"
+    "cross_refs": [
+      "Romans 1:1",
+      "Philippians 2:7",
+      "1 Corinthians 7:22",
+      "Galatians 1:10",
+      "Matthew 20:27"
+    ],
+    "author": "Kahu Phil Stephens"
   },
   "G2962": {
     "greek": "κύριος",
     "translit": "kyrios",
-    "english_flattened": "Lord (religious title)",
-    "actual_meaning": "Master, owner, one in authority. In Greco-Roman context, kyrios was the term for the head of a household, the owner of slaves, the emperor ('Caesar is kyrios'). Jewish writers used kyrios in the LXX to translate YHWH. When NT writers call Jesus 'kyrios,' they are making BOTH claims at once: He is the divine YHWH, AND He is the true Emperor over against Caesar's false claim.",
-    "why_mistranslated": "English 'Lord' has become a vague religious title, domesticated into hymnody. Kyrios was a politically dangerous word in the Roman empire — saying 'Jesus is kyrios' meant 'Caesar is NOT kyrios.' Early Christians died for that word. The softening into 'Lord' as polite religious honorific loses the treasonous edge.",
+    "english_flattened": "Lord (a polite religious title, like calling someone sir)",
+    "actual_meaning": "Master. Owner. The one who holds absolute authority. In the Roman world, kyrios was the title of the emperor — Caesar is kyrios. Jewish writers used it in the LXX to translate the divine name YHWH. When the early Christians confessed that Jesus is kyrios, they were making two claims simultaneously: Jesus is the divine YHWH, and Jesus is the true Emperor over against Caesar's false claim. It was not a polite religious honorific. In the Roman empire it was a treasonous statement.",
+    "why_mistranslated": "The word Lord has become so domesticated in church culture that it has lost its edge entirely. Hymnals and prayers have turned it into a reverent but harmless title. The Koine word got people killed. Recovering its weight recovers the actual claim of the gospel.",
     "root": "kyros — supreme power",
     "pos": "noun masculine",
-    "cross_refs": ["Romans 10:9","Philippians 2:11","1 Corinthians 12:3","Acts 2:36","Revelation 17:14"],
-    "author": "draft — awaiting Kahu review"
+    "cross_refs": [
+      "Romans 10:9",
+      "Philippians 2:11",
+      "1 Corinthians 12:3",
+      "Acts 2:36",
+      "Revelation 17:14"
+    ],
+    "author": "Kahu Phil Stephens"
   },
   "G3813": {
     "greek": "παιδίον",
     "translit": "paidion",
-    "english_flattened": "little child (small in size)",
-    "actual_meaning": "Young child — but in ancient culture, a paidion had essentially zero social status. Children were dependent, trusting, at the bottom of the honor hierarchy. When Jesus says 'unless you become as paidia you will not enter the Kingdom' (Matt 18:3), He is NOT appealing to childlike innocence or simplicity. He is appealing to the LOW STATUS and TOTAL DEPENDENCE of children in honor-culture. Kingdom entry requires abandoning status and embracing radical dependence.",
-    "why_mistranslated": "Western sentimentality reads 'become as children' as 'be innocent/simple/pure-hearted.' In the honor-culture of Jesus's day, children were nobodies — the weakest, most dependent, lowest-status members of society. Jesus is saying entry to the Kingdom requires releasing all claims to status and embracing bottom-of-the-hierarchy dependence. Much sharper than English sentimentality.",
+    "english_flattened": "little child (someone innocent, simple, and pure-hearted)",
+    "actual_meaning": "A young child — but in the honor culture of Jesus's day, children had essentially zero social status. They were at the bottom of the hierarchy, completely dependent, with no rights and no voice. When Jesus says unless you become as paidia you cannot enter the Kingdom (Matthew 18:3), He is not asking you to be innocent or simple. He is asking you to take the lowest place. To release every claim to status, honor, and position. To stand before God with the radical dependence of someone who has nothing to offer and no standing to negotiate from.",
+    "why_mistranslated": "Western sentimentality reads children as symbols of innocence and purity. In the first-century Mediterranean world, children were symbols of low status and total dependence. Jesus is making a far sharper demand than asking people to be sweet and uncomplicated.",
     "root": "pais — child",
     "pos": "noun neuter",
-    "cross_refs": ["Matthew 18:1-4","Matthew 19:13-15","Mark 10:14-15","Luke 9:48","Luke 18:17"],
-    "author": "draft — awaiting Kahu review"
+    "cross_refs": [
+      "Matthew 18:1-4",
+      "Matthew 19:13-15",
+      "Mark 10:14-15",
+      "Luke 9:48",
+      "Luke 18:17"
+    ],
+    "author": "Kahu Phil Stephens"
   },
-
   "H7225": {
     "hebrew": "רֵאשִׁית",
     "translit": "reshith",
-    "english_flattened": "beginning (point in time)",
-    "actual_meaning": "Beginning, chief, firstfruits, principal thing. Not just 'point in time when something started' but also 'the CHIEF, the FIRST IN RANK, the PRINCIPAL.' Genesis 1:1 'in the reshith Elohim created' carries both temporal ('at the start') and primacy ('as the principal thing') meanings. Reshith also means the firstfruits offering — the first and best given to God.",
-    "why_mistranslated": "English 'beginning' is only temporal. Hebrew reshith carries the full weight of primacy, rank, firstfruits. Proverbs 1:7: 'the fear of YHWH is the reshith of knowledge' — not just the starting point of knowledge but the CHIEF thing, the principal, the best-first.",
-    "root": "r-o-sh — head, chief",
+    "english_flattened": "beginning (the starting point in time)",
+    "actual_meaning": "Beginning, yes — but also the chief thing, the principal thing, the first and best. The root is rosh, meaning head. Reshith is not just when something started — it is what stands at the head, what has primacy. In Genesis 1:1, bereshith carries both meanings: at the start, and as the principal act. In Proverbs 1:7, the fear of YHWH is the reshith of knowledge — not merely the first step but the most important thing, the head of all wisdom. When you bring the reshith of your harvest, you bring the first and the best, not just the earliest.",
+    "why_mistranslated": "Translating reshith only as beginning loses the primacy and rank dimension entirely. The word teaches that what comes first also matters most — not just chronologically but in value and weight.",
+    "root": "rosh — head, chief",
     "pos": "noun feminine",
-    "cross_refs": ["Genesis 1:1","Proverbs 1:7","Proverbs 9:10","Jeremiah 2:3","Deuteronomy 26:2"],
-    "author": "draft — awaiting Kahu review"
+    "cross_refs": [
+      "Genesis 1:1",
+      "Proverbs 1:7",
+      "Proverbs 9:10",
+      "Jeremiah 2:3",
+      "Deuteronomy 26:2"
+    ],
+    "author": "Kahu Phil Stephens"
   },
   "H1254": {
     "hebrew": "בָּרָא",
     "translit": "bara",
-    "english_flattened": "create (make something)",
-    "actual_meaning": "To create — specifically, a verb used ONLY with God as subject in the Hebrew Bible. No human ever 'baras.' Humans 'asah' (make, do) and 'yatsar' (form, shape). Bara is divine creation — bringing about something only God can bring about. Genesis 1:1 uses bara for the cosmos; Genesis 1:27 uses it for humanity; Isaiah uses it for God's new work in history. Not the same verb as human making.",
-    "why_mistranslated": "English 'create' is used for humans and God alike ('he created a painting'). Hebrew reserves bara for God. The distinction marks that creation itself is a divinely-unique category of action. When Genesis says God 'bara,' it is not just 'made' — it is the unique divine bringing-into-being only God does.",
+    "english_flattened": "create (make something, the way humans make things)",
+    "actual_meaning": "To create — a verb used in the Hebrew Bible exclusively with God as the subject. No human ever baras. Humans asah (make, do) and yatsar (form, shape). Bara is reserved for what only God does — bringing into being what did not exist, accomplishing what no creature can accomplish. Genesis 1:1 uses bara for the cosmos. Genesis 1:27 uses it for humanity. Isaiah uses it for God's new work in history. The exclusivity of the word is its entire point.",
+    "why_mistranslated": "English create is used freely for human and divine activity alike. We say an artist creates a painting. The Hebrew never says that. Flattening bara into generic creating erases the line Scripture draws between what God does and what creatures do.",
     "root": "b-r-a",
     "pos": "verb",
-    "cross_refs": ["Genesis 1:1","Genesis 1:27","Psalm 51:10","Isaiah 43:1","Isaiah 65:17"],
-    "author": "draft — awaiting Kahu review"
+    "cross_refs": [
+      "Genesis 1:1",
+      "Genesis 1:27",
+      "Psalm 51:10",
+      "Isaiah 43:1",
+      "Isaiah 65:17"
+    ],
+    "author": "Kahu Phil Stephens"
   },
   "H5315": {
     "hebrew": "נֶפֶשׁ",
     "translit": "nephesh",
-    "english_flattened": "soul (immortal spiritual part)",
-    "actual_meaning": "Living being, self, whole person. Genesis 2:7: 'man became a living nephesh' — the whole embodied living self, not a separable soul. Animals are also called nephesh (Gen 1:20). Nephesh is the WHOLE LIVING CREATURE, not a detachable inner part. The Greek psychē in the LXX translates it, maintaining this sense.",
-    "why_mistranslated": "Platonic dualism (body/soul split) crept into biblical translation. Nephesh is NOT a detachable immortal soul inside the body. It is the whole living self — body, breath, life, all as one. When Psalm 103 says 'bless YHWH, O my nephesh,' David is addressing his whole living self, not a disembodied spiritual substance.",
+    "english_flattened": "soul (an immortal spiritual substance separate from and superior to the body)",
+    "actual_meaning": "Life. Self. The whole living creature. Genesis 2:7 says God breathed into Adam and he became a living nephesh — not he received a soul, but he became a living being, whole. Animals are also called nephesh in Genesis 1:20. The nephesh is not a detachable inner part. It is the whole person breathing and alive. When the Psalms say bless YHWH O my nephesh, David is not addressing a spiritual fragment. He is calling his whole living self to attention before God.",
+    "why_mistranslated": "Same Platonic contamination as psychē. The idea of an immortal soul trapped in a mortal body is Greek philosophy, not Hebrew Scripture. Hebrew anthropology sees the person as a whole — body, breath, life, all one. The Christian hope is not the soul escaping the body. It is the resurrection of the whole person.",
     "root": "n-p-sh — to breathe",
     "pos": "noun feminine",
-    "cross_refs": ["Genesis 2:7","Genesis 1:20","Leviticus 17:11","Psalm 103:1","Deuteronomy 6:5"],
-    "author": "draft — awaiting Kahu review"
+    "cross_refs": [
+      "Genesis 2:7",
+      "Genesis 1:20",
+      "Leviticus 17:11",
+      "Psalm 103:1",
+      "Deuteronomy 6:5"
+    ],
+    "author": "Kahu Phil Stephens"
   },
   "H2403": {
     "hebrew": "חַטָּאת",
     "translit": "chattath",
-    "english_flattened": "sin / sin-offering (moral wrong)",
-    "actual_meaning": "Missing the mark — same archery imagery as Greek hamartia. From the root chata (to miss, to fail to reach). Also means the 'sin-offering' — the sacrifice for covenant breach. The word carries both the failure itself and the remedy for it. Not primarily about moral crime but about failing to hit the target of covenant faithfulness.",
-    "why_mistranslated": "Same flattening as hamartia. English 'sin' as legal/moral category loses the archery picture of missing the target. The OT sacrificial system makes more sense when sin is 'missing the mark of covenant' — a covenant-repair system — rather than 'crime-punishment' system.",
+    "english_flattened": "sin (a moral crime, a rule broken)",
+    "actual_meaning": "Missing the mark. The Hebrew equivalent of the Greek hamartia — the same archery picture. From the root chata, to miss, to fail to reach. The word also names the sin-offering in the sacrificial system — meaning the word carries both the failure and the remedy in the same breath. The whole sacrificial system makes more sense when sin is missing the mark of covenant faithfulness — the offerings are the means of restoring aim, not of paying a criminal penalty.",
+    "why_mistranslated": "Same as hamartia. Making chattath primarily a legal violation shapes the entire OT sacrificial system into a punishment system. Understanding it as missing the mark shapes the same system into a restoration system. The theology of atonement changes depending on which picture you hold.",
     "root": "chata — to miss, to fail to reach",
     "pos": "noun feminine",
-    "cross_refs": ["Genesis 4:7","Leviticus 4:3","Psalm 32:1","Isaiah 53:10","Exodus 29:14"],
-    "author": "draft — awaiting Kahu review"
+    "cross_refs": [
+      "Genesis 4:7",
+      "Leviticus 4:3",
+      "Psalm 32:1",
+      "Isaiah 53:10",
+      "Exodus 29:14"
+    ],
+    "author": "Kahu Phil Stephens"
   },
   "H3722": {
     "hebrew": "כָּפַר",
     "translit": "kaphar",
-    "english_flattened": "atone (appease angry God)",
-    "actual_meaning": "To cover, to wipe away, to purge. Root idea of removing or covering defilement. Kaphar is not about appeasing an angry deity (pagan sacrifice) but about CLEANING the covenant relationship — removing what has marred it. The 'mercy seat' (kapporeth) comes from this root — the place of covering/cleansing. NT atonement language draws on this covenant-cleansing picture, not pagan appeasement.",
-    "why_mistranslated": "Popular theology often makes atonement about appeasing an angry God — a pagan framework foreign to Hebrew Scripture. Kaphar is covenant maintenance: removing the defilement that has marred the relationship so it can continue. The emphasis is on cleansing, not appeasement.",
+    "english_flattened": "atone (appease an angry God with a sacrifice)",
+    "actual_meaning": "To cover. To wipe away. To cleanse. The root idea is removing or covering defilement — not appeasing an angry deity. The mercy seat in the tabernacle is the kapporeth — the covering place, the cleansing place. Kaphar is covenant maintenance: when something has marred the relationship between God and His people, kaphar removes the defilement so the relationship can continue. The emphasis is on cleansing, not on paying a penalty to calm divine wrath.",
+    "why_mistranslated": "Popular Christianity often frames atonement as appeasing an angry God — a picture closer to pagan sacrifice than to Hebrew covenant theology. Kaphar is about cleaning, not calming. God is not a volatile deity who needs to be managed. He is a covenant partner whose relationship with His people is being actively maintained.",
     "root": "k-p-r — to cover, to wipe",
     "pos": "verb",
-    "cross_refs": ["Leviticus 16:30","Leviticus 17:11","Exodus 25:17","Numbers 16:46","Isaiah 53:10"],
-    "author": "draft — awaiting Kahu review"
+    "cross_refs": [
+      "Leviticus 16:30",
+      "Leviticus 17:11",
+      "Exodus 25:17",
+      "Numbers 16:46",
+      "Isaiah 53:10"
+    ],
+    "author": "Kahu Phil Stephens"
   },
   "H6944": {
     "hebrew": "קֹדֶשׁ",
     "translit": "qodesh",
-    "english_flattened": "holiness (moral purity)",
-    "actual_meaning": "Set-apartness, separation, dedication. The noun form of qadosh. Not moral purity but dedicated distinctness. The 'holy of holies' (qodesh qadashim) is the 'set-apart of the set-apart-ones' — the most dedicated space. Israel as a 'holy nation' is a set-apart nation, distinct from the others, dedicated to YHWH's purposes.",
-    "why_mistranslated": "Same as qadosh. 'Holiness' as moral perfection is a Western moralistic drift from the Hebrew meaning of dedicated distinctness. Israel's call to holiness is a call to be DIFFERENT — to live the way YHWH's people live — not to be morally better than others.",
+    "english_flattened": "holiness (moral perfection, religious purity)",
+    "actual_meaning": "Set-apartness. Consecration. Dedicated distinctness. The noun form of qadosh. The holy of holies — qodesh qadashim — is the most dedicated space, the place most fully set apart for YHWH's presence. Israel as a holy nation is a set-apart nation — distinct from the others not in arrogance but in purpose, shaped by YHWH's character and living visibly differently as a result.",
+    "why_mistranslated": "Same as qadosh. Moral perfection as the meaning of holiness makes it an achievement — something you attain. Set-apartness as the meaning makes it an identity — something you live from. The call to holiness in Scripture is a call to live from who you already are in God, not to earn a status you do not have.",
     "root": "q-d-sh (to be set apart)",
     "pos": "noun masculine",
-    "cross_refs": ["Exodus 15:11","Leviticus 19:2","Psalm 29:2","Isaiah 6:3","Exodus 26:33"],
-    "author": "draft — awaiting Kahu review"
+    "cross_refs": [
+      "Exodus 15:11",
+      "Leviticus 19:2",
+      "Psalm 29:2",
+      "Isaiah 6:3",
+      "Exodus 26:33"
+    ],
+    "author": "Kahu Phil Stephens"
   },
   "H3372": {
     "hebrew": "יָרֵא",
     "translit": "yare",
-    "english_flattened": "fear (be afraid of)",
-    "actual_meaning": "To revere, to stand in awe, to take seriously. When the OT says 'fear YHWH,' it does NOT mean 'be terrified of God.' It means 'take God seriously, revere Him, recognize His weight.' Connected to kabod (weight/glory) — fearing God is responding rightly to God's actual weight. Proverbs 1:7: 'The fear of YHWH is the reshith (principal thing) of knowledge.' The beginning of wisdom is taking God seriously.",
-    "why_mistranslated": "Modern readers hear 'fear God' and imagine terror or cringing. Hebrew yare is closer to 'respect deeply, take with full seriousness, respond to God's actual weight.' Terror of God would contradict countless passages where God calls His people 'fear not.' The fear is reverence, not dread.",
+    "english_flattened": "fear (to be terrified of God)",
+    "actual_meaning": "To revere. To stand in awe. To take with full seriousness. When the OT says fear YHWH, it does not mean cower before an unpredictable deity. It means respond rightly to who God actually is — His weight, His reality, His covenant claims. The person who fears YHWH is not paralyzed with terror. They are the person who takes God seriously enough to let that reality shape every decision. Proverbs 1:7 calls this the reshith — the principal thing — of all wisdom.",
+    "why_mistranslated": "Translating yare as simple terror has produced a picture of God as someone to be appeased and avoided. But Scripture constantly follows 'fear not' with 'I am with you' — because the yare YHWH is not about cringing. It is about the posture of a creature standing before the Creator with appropriate reverence and trust.",
     "root": "y-r-a",
     "pos": "verb",
-    "cross_refs": ["Proverbs 1:7","Deuteronomy 6:13","Psalm 111:10","Ecclesiastes 12:13","Exodus 20:20"],
-    "author": "draft — awaiting Kahu review"
+    "cross_refs": [
+      "Proverbs 1:7",
+      "Deuteronomy 6:13",
+      "Psalm 111:10",
+      "Ecclesiastes 12:13",
+      "Exodus 20:20"
+    ],
+    "author": "Kahu Phil Stephens"
   },
   "H3045": {
     "hebrew": "יָדַע",
     "translit": "yada",
-    "english_flattened": "know (have information about)",
-    "actual_meaning": "To know — but RELATIONALLY and EXPERIENTIALLY, not just informationally. Yada is the word used for sexual intimacy (Adam 'knew' Eve and she conceived). It is knowing by relationship, by experience, by encounter. When God says 'I yada you' (Jer 1:5), it is covenant intimacy, not informational awareness. The opposite: 'I never yada you' (Matt 7:23 picking up the Hebrew sense) — Jesus saying 'we never had relationship.'",
-    "why_mistranslated": "English 'know' has drifted toward informational knowledge — knowing facts ABOUT someone. Hebrew yada is relational encounter. When Jesus says 'This is eternal life, that they may yada/ginōskō You' (John 17:3), He is not talking about theological facts but about intimate relational knowing.",
+    "english_flattened": "know (to have information about someone or something)",
+    "actual_meaning": "To know through relationship, through experience, through intimate encounter. This is the word used for the sexual union between Adam and Eve — Adam knew his wife and she conceived. It is knowing through lived encounter, not through accumulated facts. When God says I knew you before you were formed in the womb (Jeremiah 1:5), He is not talking about having data about Jeremiah. He is speaking of the deep relational knowing of a covenant partner. When Jesus says I never knew you (Matthew 7:23), He means we never had relationship.",
+    "why_mistranslated": "English know has drifted almost entirely toward informational knowing — I know the facts about you. Hebrew yada is relational knowing — I have encountered you, lived with you, been changed by you. When Jesus in John 17:3 says eternal life is knowing the Father, He means relationship, not theology.",
     "root": "y-d-a",
     "pos": "verb",
-    "cross_refs": ["Genesis 4:1","Jeremiah 1:5","John 17:3","Matthew 7:23","Hosea 6:6"],
-    "author": "draft — awaiting Kahu review"
+    "cross_refs": [
+      "Genesis 4:1",
+      "Jeremiah 1:5",
+      "John 17:3",
+      "Matthew 7:23",
+      "Hosea 6:6"
+    ],
+    "author": "Kahu Phil Stephens"
   },
   "H5650": {
     "hebrew": "עֶבֶד",
     "translit": "eved",
-    "english_flattened": "servant (paid employee)",
-    "actual_meaning": "Slave, bondservant. Same issue as Greek doulos. Eved is owned, belonging entirely. Moses is called 'eved YHWH' (servant/slave of YHWH). David is 'eved YHWH.' This is total belonging, not hired service. The OT 'servant of the LORD' title is about belonging wholly to God, not being employed by God.",
-    "why_mistranslated": "Softened to 'servant' to avoid slavery connotation. But the total-belonging meaning is theologically important. To be 'eved YHWH' is to belong wholly to God — the same claim Paul makes about himself as doulos Christou.",
+    "english_flattened": "servant (a paid employee or helper)",
+    "actual_meaning": "Slave. Bondservant. Owned, not hired. The Hebrew equivalent of the Greek doulos. Moses is called eved YHWH — slave of YHWH. David is called eved YHWH. This is the highest honor the OT bestows on a human being — to belong wholly to God, to have no separate agenda, to be entirely at His disposal. It is total belonging described as dignity, not as degradation.",
+    "why_mistranslated": "Same softening as doulos. The total-belonging dimension that makes the title meaningful is lost when it becomes a mere job description. When the prophets speak of the Servant of YHWH in Isaiah, they are describing someone whose entire existence is organized around YHWH's purposes — not someone who does occasional tasks for God.",
     "root": "a-b-d — to work, to serve",
     "pos": "noun masculine",
-    "cross_refs": ["Exodus 14:31","Deuteronomy 34:5","Psalm 89:3","Isaiah 52:13","Jeremiah 7:25"],
-    "author": "draft — awaiting Kahu review"
+    "cross_refs": [
+      "Exodus 14:31",
+      "Deuteronomy 34:5",
+      "Psalm 89:3",
+      "Isaiah 52:13",
+      "Jeremiah 7:25"
+    ],
+    "author": "Kahu Phil Stephens"
   },
   "H3467": {
     "hebrew": "יָשַׁע",
     "translit": "yasha",
-    "english_flattened": "save (from hell)",
-    "actual_meaning": "To deliver, to rescue, to bring to safety, to make room. The root of the name Yeshua/Joshua ('YHWH saves'). Yasha is not about spiritual afterlife — it is about deliverance from CONCRETE DANGER: enemies, famine, oppression, sickness. When Gabriel tells Joseph to name the child Yeshua because 'He shall yasha His people from their sins,' the word carries the full concrete rescue sense, applied now to the ultimate danger of sin.",
-    "why_mistranslated": "Evangelical English narrowed 'save' to 'go to heaven when you die.' Hebrew yasha is concrete rescue from present danger. Salvation in Hebrew thought is political, economic, medical, spiritual, relational — the full deliverance into shalom flourishing. Same flattening as Greek sōzō.",
+    "english_flattened": "save (rescue from hell after death)",
+    "actual_meaning": "To deliver. To rescue. To bring into a wide, safe space. The root idea is making room — bringing someone out of a tight, dangerous place into spaciousness and safety. Yasha is the root of the name Yeshua — YHWH saves, YHWH delivers. In the OT, yasha describes rescue from real, concrete danger: enemies, famine, oppression, sickness. When Gabriel tells Joseph to name the child Yeshua because He will yasha His people from their sins, the word carries its full concrete rescue weight — not a future spiritual transaction but a real deliverance from the most fundamental danger human beings face.",
+    "why_mistranslated": "Evangelical English narrowed salvation to mean going to heaven when you die. Hebrew yasha is wholeness rescue — political, economic, physical, spiritual, relational. The same word saves Israel from Egypt, heals the sick, and delivers the oppressed. Salvation in Hebrew thought is shalom breaking in now.",
     "root": "y-sh-a — to be wide, to make room, to deliver",
     "pos": "verb",
-    "cross_refs": ["Exodus 14:30","Psalm 3:7","Isaiah 43:3","Matthew 1:21","Psalm 106:10"],
-    "author": "draft — awaiting Kahu review"
+    "cross_refs": [
+      "Exodus 14:30",
+      "Psalm 3:7",
+      "Isaiah 43:3",
+      "Matthew 1:21",
+      "Psalm 106:10"
+    ],
+    "author": "Kahu Phil Stephens"
   },
   "H5414": {
     "hebrew": "נָתַן",
     "translit": "nathan",
-    "english_flattened": "give (transfer ownership)",
-    "actual_meaning": "To give — wide semantic range. Can mean appoint, assign, put, set, deliver, grant. Deuteronomy uses nathan constantly for the land God gives Israel — not a commercial transfer but a covenant grant with obligations attached. When God 'nathan' something, it is relational gift with responsibility, not merely transferred ownership.",
-    "why_mistranslated": "English 'give' is transactional. Hebrew nathan is relational gift. The land God 'gave' Israel came with covenant obligations. Gifts in Hebrew thought carry the giver's claim and the receiver's responsibility — they are not 'no strings attached' transfers.",
+    "english_flattened": "give (transfer ownership with no strings attached)",
+    "actual_meaning": "To give — but in the Hebrew worldview, a gift from God is never a detached transfer. Nathan carries relational weight: to give, to appoint, to entrust, to set in place for a purpose. When God nathans the land to Israel, it comes with covenant obligations. When God nathans a gift, He remains present in the gift. Gifts in Hebrew thought carry the giver's claim and the receiver's responsibility. This is why Paul says in Romans 11:29 that the gifts and calling of God are irrevocable — they were not transactions, they were covenant commitments.",
+    "why_mistranslated": "English give has become entirely transactional — ownership changes hands and the giver steps back. Hebrew nathan keeps the giver present and engaged. This changes how we understand every gift God has given — land, Torah, covenant, salvation. All of them come with the Giver still in the picture.",
     "root": "n-t-n",
     "pos": "verb",
-    "cross_refs": ["Genesis 1:29","Deuteronomy 6:10","Joshua 1:2","Psalm 37:4","John 3:16"],
-    "author": "draft — awaiting Kahu review"
+    "cross_refs": [
+      "Genesis 1:29",
+      "Deuteronomy 6:10",
+      "Joshua 1:2",
+      "Psalm 37:4",
+      "John 3:16"
+    ],
+    "author": "Kahu Phil Stephens"
   },
   "H5769": {
     "hebrew": "עוֹלָם",
     "translit": "olam",
-    "english_flattened": "forever / eternal",
-    "actual_meaning": "Age, long duration, a period hidden beyond view. Like Greek aiōn, olam refers to an age with character — 'ha-olam ha-ba' (the age to come) versus 'ha-olam ha-zeh' (this present age). Not simply 'forever' in the sense of infinite time. The root idea is 'hidden' — that which stretches beyond the horizon of sight.",
-    "why_mistranslated": "Same flattening as aiōn. Translating olam as 'forever' imports Greek philosophical infinity. Hebrew olam is about ages beyond the horizon, not mathematical endlessness. 'Everlasting to everlasting' (me-olam ad olam) means 'from age to age,' not from mathematical past infinity to mathematical future infinity.",
+    "english_flattened": "forever / eternal (infinite mathematical time)",
+    "actual_meaning": "An age stretching beyond the horizon of sight. The root idea is hidden — that which is so far off it passes out of view. Like the Greek aiōn, olam refers to an age with its own character, not to mathematical infinity. The two-age framework of Hebrew thought — ha-olam ha-zeh (this present age) and ha-olam ha-ba (the age to come) — uses olam for both ages. When Psalm 90:2 says from olam to olam YHWH is God, it means from age to age, from before time began to beyond where time ends — not from mathematical past infinity to mathematical future infinity.",
+    "why_mistranslated": "Translating olam as forever imports Greek philosophical infinity into a Hebrew relational word. The difference matters enormously for understanding passages about eternal life, eternal punishment, and the everlasting covenant — all of which are about the quality and character of the age to come, not about endless duration.",
     "root": "a-l-m — to hide, to be hidden",
     "pos": "noun masculine",
-    "cross_refs": ["Psalm 90:2","Psalm 103:17","Isaiah 40:28","Deuteronomy 33:27","Micah 5:2"],
-    "author": "draft — awaiting Kahu review"
+    "cross_refs": [
+      "Psalm 90:2",
+      "Psalm 103:17",
+      "Isaiah 40:28",
+      "Deuteronomy 33:27",
+      "Micah 5:2"
+    ],
+    "author": "Kahu Phil Stephens"
   },
   "H4872_name": {
     "hebrew": "מֹשֶׁה",
     "translit": "Mosheh (Moses)",
-    "english_flattened": "Moses (name only)",
-    "actual_meaning": "'Drawn out' or 'one who draws out.' Given by Pharaoh's daughter (Exodus 2:10) — but prophetic: Moses was drawn out of the water as an infant, and later drew Israel out of Egypt through the water. The name carries the prophetic double meaning. Names in Hebrew carry destiny.",
-    "why_mistranslated": "English Bible readers treat 'Moses' as just a name. Hebrew names describe. Mosheh carries in it his whole life story — the one drawn out who draws others out. Pharaoh's daughter unknowingly prophesied over him.",
+    "english_flattened": "Moses (just a name, no meaning carried)",
+    "actual_meaning": "Drawn out. Given by Pharaoh's daughter when she pulled the infant from the water — she called him Mosheh, saying, I drew him out of the water. But the name is prophetic in both directions. Moses was drawn out of the water as an infant, and decades later he drew Israel out through the water of the Red Sea. His name carries his entire life's mission. In Hebrew, names describe. Pharaoh's daughter spoke over this child, without knowing it, the shape of his whole life.",
+    "why_mistranslated": "In English, Moses is just a proper name — a label. In Hebrew, every time his name is spoken it tells the story of who he is and what he was born to do. This is how Hebrew names function throughout Scripture. The name carries the person.",
     "root": "mashah — to draw out",
     "pos": "proper noun",
-    "cross_refs": ["Exodus 2:10","Exodus 14:21","Isaiah 63:11","Hebrews 11:24-29","Deuteronomy 34:10"],
-    "author": "draft — awaiting Kahu review"
+    "cross_refs": [
+      "Exodus 2:10",
+      "Exodus 14:21",
+      "Isaiah 63:11",
+      "Hebrews 11:24-29",
+      "Deuteronomy 34:10"
+    ],
+    "author": "Kahu Phil Stephens"
   },
   "H3478_name": {
     "hebrew": "יִשְׂרָאֵל",
     "translit": "Yisrael (Israel)",
-    "english_flattened": "Israel (nation name only)",
-    "actual_meaning": "'He who struggles/wrestles with God' or 'God struggles/prevails.' Given to Jacob after wrestling with the angel at Peniel (Gen 32:28). The name describes the identity of the whole nation: a people whose relationship with God is marked by wrestling, struggle, honest engagement. Not a passive name — an active, strenuous one.",
-    "why_mistranslated": "Readers take 'Israel' as just the nation's name. The name itself is a theological statement about how God's people relate to God — by wrestling, engaging, struggling honestly rather than passive obedience. The nation's entire identity is built into the name.",
+    "english_flattened": "Israel (the name of a nation, no meaning carried)",
+    "actual_meaning": "He who wrestles with God — or God who prevails. Given to Jacob after he spent the night wrestling with the angel at the Jabbok river and would not let go until he received a blessing (Genesis 32:28). The name describes the defining characteristic of the whole people: a community whose relationship with God is marked by honest struggle, persistent engagement, refusal to let go. Not passive compliance. Not easy agreement. Wrestling — and being changed by the wrestling.",
+    "why_mistranslated": "Treating Israel as merely a national label loses the theological identity embedded in the name. Every time the name is spoken in Scripture it carries the Jabbok story — a people defined by their willingness to engage God honestly, to hold on through the night, to demand blessing even when it costs them.",
     "root": "sarah (to struggle) + El (God)",
     "pos": "proper noun",
-    "cross_refs": ["Genesis 32:28","Hosea 12:3-4","Isaiah 43:1","Romans 9:6","Galatians 6:16"],
-    "author": "draft — awaiting Kahu review"
+    "cross_refs": [
+      "Genesis 32:28",
+      "Hosea 12:3-4",
+      "Isaiah 43:1",
+      "Romans 9:6",
+      "Galatians 6:16"
+    ],
+    "author": "Kahu Phil Stephens"
   },
   "G2424_name": {
     "greek": "Ἰησοῦς",
     "translit": "Iēsous (Jesus)",
-    "english_flattened": "Jesus (name only)",
-    "actual_meaning": "'YHWH saves' or 'YHWH is salvation.' Greek transliteration of Hebrew Yeshua (short form of Yehoshua/Joshua). The name is a sentence: YAHWEH + YASHA = 'Yahweh delivers.' When Gabriel tells Joseph 'you shall call His name Iēsous because He shall save His people from their sins,' the wordplay is direct: His NAME says what He DOES.",
-    "why_mistranslated": "Readers treat 'Jesus' as just a name. The Hebrew original is 'Yeshua' — a sentence declaring that YHWH saves. Every time the name is spoken it declares who He is and what He does. Translating through Greek to Latin to English has buried the sentence inside the name.",
+    "english_flattened": "Jesus (just a first name, no meaning carried)",
+    "actual_meaning": "YHWH saves. YHWH delivers. The Greek form of the Hebrew Yeshua — which is itself a sentence: the covenant name of God plus the verb yasha, to save. Every time the name is spoken it declares who He is and what He does. Gabriel's instruction to Joseph in Matthew 1:21 is built entirely on this — you shall call His name Yeshua, for He will yasha His people from their sins. The name and the mission are the same word.",
+    "why_mistranslated": "Translating through Greek to Latin to English has buried the living sentence inside a sound. To Hebrew ears, Yeshua announced His purpose every time it was spoken. English speakers have a name. Hebrew speakers had a declaration.",
     "root": "Yehoshua — YHWH (is) salvation",
     "pos": "proper noun",
-    "cross_refs": ["Matthew 1:21","Acts 4:12","Philippians 2:9-11","Hebrews 4:8","Luke 2:21"],
-    "author": "draft — awaiting Kahu review"
+    "cross_refs": [
+      "Matthew 1:21",
+      "Acts 4:12",
+      "Philippians 2:9-11",
+      "Hebrews 4:8",
+      "Luke 2:21"
+    ],
+    "author": "Kahu Phil Stephens"
   },
   "G5547": {
     "greek": "Χριστός",
     "translit": "Christos",
-    "english_flattened": "Christ (last name of Jesus)",
-    "actual_meaning": "Anointed one. Greek translation of Hebrew Mashiach (Messiah). NOT a last name. A TITLE with heavy covenant weight — the anointed king promised to David, the anointed prophet, the anointed priest. 'Jesus Christ' is 'Yeshua the Messiah' — first name + title, like 'Caesar Augustus' = 'Caesar the Revered.' When Paul says 'Jesus is the Christos,' he is making the claim that got early Christians killed: Jesus is the anointed King prophesied.",
-    "why_mistranslated": "English speakers treat 'Christ' as if it were Jesus's family name. It is a TITLE. The loss of this fact has flattened the political and messianic claim at the heart of the gospel. 'The euangelion of Jesus Christ' properly read is 'the royal announcement that Jesus is the Anointed King.'",
+    "english_flattened": "Christ (Jesus's last name)",
+    "actual_meaning": "The Anointed One. Messiah. This is not a surname — it is a royal title carrying centuries of covenant promise. The Greek translation of the Hebrew Mashiach — the anointed king promised to David, the anointed prophet, the anointed priest. Jesus Christ means Yeshua the Anointed King. When Paul says Jesus is the Christos, he is making the claim that got people killed in the Roman world: the one YHWH anointed to rule has arrived, and His throne supersedes every other.",
+    "why_mistranslated": "Treating Christ as a last name has quietly stripped one of the most loaded titles in Scripture of all its meaning. Most people who say Jesus Christ are unwittingly saying Jesus Smith. Recovering the title recovers the claim — He is not just a religious figure, He is the Anointed King promised since David.",
     "root": "chriō — to anoint",
-    "pos": "noun masculine (used as title)",
-    "cross_refs": ["Matthew 16:16","John 1:41","Acts 2:36","Romans 1:4","1 John 5:1"],
-    "author": "draft — awaiting Kahu review"
+    "pos": "noun masculine — royal title",
+    "cross_refs": [
+      "Matthew 16:16",
+      "John 1:41",
+      "Acts 2:36",
+      "Romans 1:4",
+      "1 John 5:1"
+    ],
+    "author": "Kahu Phil Stephens"
   },
   "G4341": {
     "greek": "προσκυνέω",
     "translit": "proskyneō",
-    "english_flattened": "worship (sing songs / attend church)",
-    "actual_meaning": "To prostrate, to bow down, to fall face-down in reverence. Literally 'to kiss toward.' The physical act of lowering oneself to the ground before a superior. NOT primarily singing, attending services, or mental adoration. Proskyneō is a bodily posture of radical humility before the one worshiped. When the magi 'worshipped' Jesus (Matt 2:11), they physically prostrated. When Revelation shows the 24 elders 'worshipping,' they fall down.",
-    "why_mistranslated": "Modern Western 'worship' has become mostly about music and meetings. Proskyneō is full bodily prostration. The loss of the physical dimension has made Christian worship disembodied — a mental/emotional activity rather than an act of the whole self laid low before God.",
+    "english_flattened": "worship (sing songs, attend services, express religious feeling)",
+    "actual_meaning": "To fall face-down before someone in complete submission and reverence. Literally to kiss toward — the physical act of prostrating yourself before a king or deity. Proskyneō is full-body, floor-level humility. When the magi arrived and proskyneō'd the child Jesus (Matthew 2:11), they physically fell on their faces. When the 24 elders proskyneō in Revelation, they fall down from their thrones. This is not singing. It is the posture of a creature acknowledging total sovereignty.",
+    "why_mistranslated": "Contemporary worship culture has reduced proskyneō to an emotional and musical experience. The word is a bodily posture — the whole self laid low before the one who is actually Lord. When worship becomes only music and feeling, the physical dimension of surrender that the word demands is quietly lost.",
     "root": "pros (toward) + kyneō (to kiss)",
     "pos": "verb",
-    "cross_refs": ["Matthew 2:11","Matthew 4:10","John 4:23-24","Revelation 4:10","Revelation 7:11"],
-    "author": "draft — awaiting Kahu review"
+    "cross_refs": [
+      "Matthew 2:11",
+      "Matthew 4:10",
+      "John 4:23-24",
+      "Revelation 4:10",
+      "Revelation 7:11"
+    ],
+    "author": "Kahu Phil Stephens"
   },
   "G3870": {
     "greek": "παρακαλέω",
     "translit": "parakaleō",
-    "english_flattened": "comfort / beseech (weakly beg)",
-    "actual_meaning": "To call alongside, to summon, to encourage, to urge strongly. Composite of para (beside) + kaleō (to call). Carries multiple senses: to comfort (call alongside to help), to exhort (call alongside to action), to urge (call strongly). The noun paraklētos is used for the Holy Spirit ('Comforter' / 'Helper') — the One called alongside.",
-    "why_mistranslated": "Split between 'comfort' and 'beseech' in English loses the core sense of 'calling alongside.' The Paraklētos (Holy Spirit) is not just a comforter (consoling the sad) but one called alongside to help, guide, teach, urge. Same verb used when Paul 'beseeches' the saints — he is calling them alongside his appeal.",
+    "english_flattened": "comfort (console someone who is sad) OR beseech (weakly beg)",
+    "actual_meaning": "To call alongside. Para (beside) + kaleō (to call). The word covers several related ideas that all share the same core picture: someone is called to come alongside another person for a specific purpose. It can mean comfort — calling someone to stand with you in your pain. It can mean exhort — calling someone strongly to a course of action. It can mean urge — pressing someone with conviction toward something important. The Holy Spirit is called the Paraklētos — the One called to stand alongside — which means helper, advocate, comforter, and guide all at once.",
+    "why_mistranslated": "English splits parakaleo into comfort and beseech as if they were different words. They are the same word — the range of meaning is the point. Whenever God draws alongside a person, the result could be consolation, challenge, or both at the same time.",
     "root": "para (alongside) + kaleō (to call)",
     "pos": "verb",
-    "cross_refs": ["John 14:16","Romans 12:1","2 Corinthians 1:3-4","1 Thessalonians 4:1","Hebrews 3:13"],
-    "author": "draft — awaiting Kahu review"
+    "cross_refs": [
+      "John 14:16",
+      "Romans 12:1",
+      "2 Corinthians 1:3-4",
+      "1 Thessalonians 4:1",
+      "Hebrews 3:13"
+    ],
+    "author": "Kahu Phil Stephens"
   },
   "G26_phileo": {
     "greek": "φιλέω",
     "translit": "phileō",
-    "english_flattened": "love (same as agapaō)",
-    "actual_meaning": "To love with affection, to be a friend of, to kiss. The love of friendship, kinship, emotional warmth. DIFFERENT from agapaō (willed, covenantal love). John 21: Jesus asks Peter 'do you agapaō me?' Peter answers 'I phileō you.' Jesus asks twice with agapaō; Peter answers with phileō. The third time Jesus meets Peter where he is: 'do you phileō me?' The wordplay is entirely lost in English where both words are translated 'love.'",
-    "why_mistranslated": "Greek has multiple words for love; English has one. The John 21 dialogue between Jesus and Peter is a masterwork of Greek wordplay that disappears entirely in English translation. Readers miss that Jesus gently accepts Peter's weaker claim and meets him there.",
+    "english_flattened": "love (identical to agapaō — just another word for love)",
+    "actual_meaning": "To love with natural affection, warmth, and friendship. The love of kinship, of familiarity, of emotional closeness. Different from agapaō, which is willed, covenantal, chosen love. In John 21, the distinction between these two words carries the entire weight of the scene. Jesus asks Peter twice using agapaō — do you love me with covenant commitment? Peter answers both times with phileō — I love you like a brother. The third time Jesus meets Peter where he is and asks using phileō — do you love me as a friend? The whole conversation is a masterwork of pastoral grace visible only in the Greek.",
+    "why_mistranslated": "English has one word for love and flattens both Greek words into it. The John 21 dialogue — one of the most tender exchanges in Scripture — becomes impossible to follow in English translation. Peter is not being inconsistent or evasive. He is being honest about where his faith actually is, and Jesus is meeting him there.",
     "root": "philos — friend, beloved",
     "pos": "verb",
-    "cross_refs": ["John 21:15-17","John 11:3","John 11:36","Matthew 10:37","Titus 3:15"],
-    "author": "draft — awaiting Kahu review"
+    "cross_refs": [
+      "John 21:15-17",
+      "John 11:3",
+      "John 11:36",
+      "Matthew 10:37",
+      "Titus 3:15"
+    ],
+    "author": "Kahu Phil Stephens"
   },
   "G2588": {
     "greek": "καρδία",
     "translit": "kardia",
-    "english_flattened": "heart (seat of emotion)",
-    "actual_meaning": "Heart — but in biblical thought, the heart is the CENTER of WILL, INTELLECT, and emotion combined. NOT just feelings. The Hebrew equivalent leb/lebab means the seat of thinking, deciding, and willing — the whole inner person. 'Out of the heart proceed evil thoughts' (Matt 15:19) — the heart THINKS. 'With the heart one believes' (Rom 10:9-10) — the heart TRUSTS with volition. Modern 'follow your heart' meaning 'do what you feel' is foreign to biblical anthropology.",
-    "why_mistranslated": "Modern Western psychology split head (thinking) from heart (feeling). Biblical Hebrew and Greek kept them together: the heart is the control center of thought, will, and emotion. 'Love the Lord your God with all your kardia' is not 'feel warmly about God' — it is 'engage your whole deciding, thinking, willing inner person with God.'",
+    "english_flattened": "heart (the seat of emotion and feeling)",
+    "actual_meaning": "The center of the whole inner life — thinking, willing, and feeling together. In the biblical worldview, the heart is where decisions are made, where trust is placed, where the direction of a life is set. It is not just the emotional center. It thinks — out of the heart come evil thoughts (Matthew 15:19). It believes — with the heart one trusts (Romans 10:9-10). It chooses — set your heart on things above (Colossians 3:1). The command to love God with all your kardia means engage your whole deciding, willing, trusting inner self — not merely feel warmly.",
+    "why_mistranslated": "Modern Western culture split head from heart — thinking from feeling. Biblical thought keeps them together. The heart in Scripture is the command center of the whole person. When this is lost, every command that touches the heart gets reduced to an emotional appeal.",
     "root": "kardia — heart",
     "pos": "noun feminine",
-    "cross_refs": ["Matthew 15:18-19","Matthew 22:37","Romans 10:9-10","Hebrews 4:12","Proverbs 4:23"],
-    "author": "draft — awaiting Kahu review"
+    "cross_refs": [
+      "Matthew 15:18-19",
+      "Matthew 22:37",
+      "Romans 10:9-10",
+      "Hebrews 4:12",
+      "Proverbs 4:23"
+    ],
+    "author": "Kahu Phil Stephens"
   },
   "H3820": {
     "hebrew": "לֵב",
     "translit": "leb",
-    "english_flattened": "heart (seat of emotion)",
-    "actual_meaning": "Heart — the center of will, thought, and emotion, same as Greek kardia. Hebrew anthropology sees the leb as the seat of deciding and knowing, not just feeling. 'The heart is deceitful above all things' (Jer 17:9) — the leb deceives because it chooses and thinks. 'Wisdom will enter your leb' (Prov 2:10) — wisdom is cognitive content of the heart.",
-    "why_mistranslated": "Same flattening as kardia. Modern Western split of head/heart makes 'heart' mean emotion, but Hebrew leb is the whole inner decision-making person. Proverbs' constant counsel about the leb is about SHAPING THE INNER DECIDING SELF, not about managing feelings.",
+    "english_flattened": "heart (the emotional center, feelings)",
+    "actual_meaning": "The center of all inner life — thinking, deciding, willing, feeling, all in one. Hebrew anthropology does not split intellect from emotion. The leb is where a person processes reality and chooses a direction. Wisdom enters the leb (Proverbs 2:10). The deceitful leb reasons its way into trouble (Jeremiah 17:9). God searches the leb to know what a person is actually doing with their life (1 Samuel 16:7). When Proverbs says guard your leb above all else (4:23), it is not asking you to manage your emotions. It is asking you to protect the decision-making center of your whole life.",
+    "why_mistranslated": "Same split as kardia. Making leb primarily emotional makes Scripture's constant address to the heart sound like emotional management advice. The Hebrew is governance advice — the leb steers the whole person, and what enters it shapes everything downstream.",
     "root": "l-b-b",
     "pos": "noun masculine",
-    "cross_refs": ["Deuteronomy 6:5","Jeremiah 17:9","Proverbs 4:23","1 Samuel 16:7","Ezekiel 36:26"],
-    "author": "draft — awaiting Kahu review"
+    "cross_refs": [
+      "Deuteronomy 6:5",
+      "Jeremiah 17:9",
+      "Proverbs 4:23",
+      "1 Samuel 16:7",
+      "Ezekiel 36:26"
+    ],
+    "author": "Kahu Phil Stephens"
   },
   "G1411": {
     "greek": "δύναμις",
     "translit": "dynamis",
-    "english_flattened": "power (abstract strength)",
-    "actual_meaning": "Power, ability, inherent capacity. Root of English 'dynamite,' 'dynamic.' Dynamis is the inherent power OF A THING — the power that belongs to it by nature. When Jesus felt 'dynamis go out from Him' when the woman touched His robe (Luke 8:46), it was His inherent divine power flowing outward. When Paul speaks of the 'dynamis of the gospel' (Rom 1:16), he means the gospel's inherent power TO DO what it does.",
-    "why_mistranslated": "English 'power' is generic. Dynamis is specifically INHERENT ABILITY — the nature-given capacity to accomplish. The gospel is not 'powerful' in the sense of impressive; it has inherent dynamis — the built-in capacity to save everyone who trusts it. The word carries active, effective potency.",
+    "english_flattened": "power (generic strength or force)",
+    "actual_meaning": "Inherent ability — the power that belongs to something by its very nature. The root of the English words dynamite and dynamic. Dynamis is not borrowed or given power. It is built-in capacity. When Jesus felt dynamis go out from Him when the woman touched His robe (Luke 8:46), it was His own inherent divine ability flowing outward in response to her faith. When Paul says the gospel is the dynamis of God for salvation (Romans 1:16), he means the gospel has built-in capacity to do what it says — it carries the power of transformation within itself.",
+    "why_mistranslated": "English power covers too much territory — it can mean political power, muscle, electricity, or influence. Dynamis is specifically the inherent, nature-given capacity of a thing to accomplish what it was made for. The gospel does not need external reinforcement. Its dynamis is already inside it.",
     "root": "dynamai — to be able",
     "pos": "noun feminine",
-    "cross_refs": ["Luke 8:46","Romans 1:16","1 Corinthians 1:18","Acts 1:8","Ephesians 1:19-21"],
-    "author": "draft — awaiting Kahu review"
+    "cross_refs": [
+      "Luke 8:46",
+      "Romans 1:16",
+      "1 Corinthians 1:18",
+      "Acts 1:8",
+      "Ephesians 1:19-21"
+    ],
+    "author": "Kahu Phil Stephens"
   },
   "G1849": {
     "greek": "ἐξουσία",
     "translit": "exousia",
-    "english_flattened": "authority / power (same as dynamis)",
-    "actual_meaning": "Delegated authority, right to act, jurisdiction. Different from dynamis (inherent power). Exousia is AUTHORIZED power — permission and right to exercise dominion. When Jesus gives the disciples 'exousia over unclean spirits' (Mark 6:7), He delegates authority. When He says 'all exousia has been given to me' (Matt 28:18), He claims delegated authority. Exousia + dynamis = authority + ability. Rule + power to enforce.",
-    "why_mistranslated": "English collapses exousia and dynamis into 'power.' Greek distinguishes: exousia is the RIGHT to act; dynamis is the ABILITY to act. A king has exousia over his kingdom; his army has dynamis. Jesus has both: delegated authority AND inherent power. The Great Commission's 'all authority' means all delegated right — He is enthroned, not just able.",
-    "root": "exesti — it is permitted",
+    "english_flattened": "power (same as dynamis — generic strength)",
+    "actual_meaning": "Delegated authority. The right to act. Jurisdiction. Different from dynamis, which is inherent ability. Exousia is authorized power — permission and the right to exercise dominion in a specific domain. When Jesus gives His disciples exousia over unclean spirits (Mark 6:7), He is deputizing them — transferring His authority to act in His name. When He declares all exousia has been given to Him (Matthew 28:18), He is claiming delegated throne-authority from the Father. Exousia is the right. Dynamis is the ability. You need both.",
+    "why_mistranslated": "Translating both exousia and dynamis as power erases a distinction the NT writers made carefully. In the Great Commission, Jesus grounds the mission in exousia — delegated authority from the throne. That is a different foundation than emotional enthusiasm or personal ability.",
+    "root": "exesti — it is permitted, it is lawful",
     "pos": "noun feminine",
-    "cross_refs": ["Matthew 28:18","Mark 6:7","Luke 10:19","Romans 13:1","Ephesians 1:21"],
-    "author": "draft — awaiting Kahu review"
+    "cross_refs": [
+      "Matthew 28:18",
+      "Mark 6:7",
+      "Luke 10:19",
+      "Romans 13:1",
+      "Ephesians 1:21"
+    ],
+    "author": "Kahu Phil Stephens"
   },
   "G2983": {
     "greek": "λαμβάνω",
     "translit": "lambanō",
-    "english_flattened": "receive (passively accept)",
-    "actual_meaning": "To take, to receive, to grasp, to lay hold of. Active, not passive. When John 1:12 says 'as many as received (lambanō) Him,' it is not passive acceptance but active taking hold. Lambanō is the verb for grabbing something, seizing, laying hands on. Biblical 'receiving' Christ is an active appropriation, not a passive sign-up.",
-    "why_mistranslated": "English 'receive' has become passive ('receive the gift' = have it given to you). Lambanō is active grasping. 'Receive the Holy Spirit' (John 20:22) is 'take hold of the Breath.' 'Receive the word' (1 Thess 1:6) is 'lay hold of the message.' The active grasping dimension is lost in English passive 'receive.'",
+    "english_flattened": "receive (passively wait for something to be given to you)",
+    "actual_meaning": "To take. To lay hold of. To actively grasp. Lambanō is not passive reception — it is active taking. When John 1:12 says as many as received Him, the word means those who actively took hold of Him, who laid hold of what was being offered and grasped it. When Jesus says receive the Holy Spirit in John 20:22, He is not describing something that will happen to passive recipients. He is calling for an active taking hold of the Breath being offered.",
+    "why_mistranslated": "English receive has become almost entirely passive — you receive a gift, meaning it is handed to you and you stand there with your hands open. Lambanō is active grasping. The picture of salvation and of receiving the Spirit as passive waiting has shaped generations of believers into consumers of spiritual experience rather than active participants.",
     "root": "lambanō — to take",
     "pos": "verb",
-    "cross_refs": ["John 1:12","John 20:22","1 Thessalonians 1:6","Acts 2:38","Mark 11:24"],
-    "author": "draft — awaiting Kahu review"
+    "cross_refs": [
+      "John 1:12",
+      "John 20:22",
+      "1 Thessalonians 1:6",
+      "Acts 2:38",
+      "Mark 11:24"
+    ],
+    "author": "Kahu Phil Stephens"
   },
   "G4100": {
     "greek": "πιστεύω",
     "translit": "pisteuō",
-    "english_flattened": "believe (mentally accept as true)",
-    "actual_meaning": "To trust, to rely upon, to be persuaded. Verb form of pistis. NOT primarily mental assent but relational trust expressed in action. 'Believe in Jesus' is not 'mentally acknowledge facts about Jesus' but 'trust Jesus enough to stake your life on Him.' James 2:19 — 'the demons believe and tremble' — uses the same verb pisteuō to make clear that believing-as-mental-assent is not what James means by saving faith.",
-    "why_mistranslated": "English 'believe' has become weakened to 'accept as true in the mind.' Biblical pisteuō is to TRUST — to rely upon, to stake your well-being upon. The demons 'believe' in God's existence; what they lack is the relational trust that would change their allegiance. Readers hear 'believe in Jesus' as mental assent when the text calls for whole-life trust.",
-    "root": "pistis (G4102) — faith, trust",
+    "english_flattened": "believe (mentally accept something as true)",
+    "actual_meaning": "To trust. To rely upon. To stake your life on. The verb form of pistis. Biblical pisteuō is not mental assent to a list of facts — it is the trust that moves your feet. Abraham pisteuō'd God and it was counted as righteousness — meaning he packed up everything he owned and left for a land he had never seen. That is not mental agreement. That is a life reorganized around trust. James makes the same point in reverse: the demons pisteuō in one God and tremble. Mental agreement without life-change is not what Scripture calls faith.",
+    "why_mistranslated": "Modern English believe has been weakened to mean 'accept as true in the mind.' Pisteuō is whole-life trust. The altar call question 'do you believe?' when it means 'do you mentally agree?' is asking a far smaller question than Jesus asked His disciples when He said follow me.",
+    "root": "pistis (G4102) — faith, trust, faithfulness",
     "pos": "verb",
-    "cross_refs": ["John 3:16","John 20:31","Romans 10:9","James 2:19","Hebrews 11:6"],
-    "author": "draft — awaiting Kahu review"
+    "cross_refs": [
+      "John 3:16",
+      "John 20:31",
+      "Romans 10:9",
+      "James 2:19",
+      "Hebrews 11:6"
+    ],
+    "author": "Kahu Phil Stephens"
   },
   "G2476": {
     "greek": "ἵστημι",
     "translit": "histēmi",
-    "english_flattened": "stand (be upright)",
-    "actual_meaning": "To stand, to set, to establish, to place, to make to stand. Carries the sense of being ESTABLISHED in a position, not merely physical standing. Paul's 'stand in the faith' (1 Cor 16:13) is about being established, rooted. 'Stand firm against the devil' (Eph 6:11) is about holding your established position. The word has a foundational, rooted quality.",
-    "why_mistranslated": "English 'stand' is a simple physical posture. Greek histēmi is about being ESTABLISHED and ROOTED. When Paul tells believers to 'stand,' he means hold your established ground in Christ — not just remain upright. The 'whole armor' is for STANDING (established) against the powers, not flailing or falling.",
-    "root": "histēmi — to stand",
+    "english_flattened": "stand (be physically upright)",
+    "actual_meaning": "To stand firm. To be established. To hold your ground. Histēmi carries the sense of being rooted and fixed in a position — not merely being vertical. When Paul tells believers to stand in Ephesians 6:11-13, using the word three times in three verses, he is not talking about posture. He is describing the established, planted, unmovable position of someone who has taken their ground in Christ and will not be moved from it regardless of what comes against them.",
+    "why_mistranslated": "Reading histēmi as simply being upright turns the armor of God passage into instructions for not falling over. The Koine is about holding your established position against everything that would displace you from it. The emphasis is on rootedness, not on verticality.",
+    "root": "histēmi — to stand, to place",
     "pos": "verb",
-    "cross_refs": ["Ephesians 6:11-13","Romans 5:2","1 Corinthians 16:13","1 Peter 5:12","Revelation 3:20"],
-    "author": "draft — awaiting Kahu review"
-  },
-  "G3340_name": {
-    "greek": "μετάνοια",
-    "translit": "metanoia",
-    "english_flattened": "repentance (religious sorrow)",
-    "actual_meaning": "Change of mind, reorientation. Noun form of metanoeō. NOT primarily sorrow or emotion but complete reorientation of thinking and life direction. Compare to Hebrew shuv (turn) — the covenant call to turn and return to YHWH is about direction change, not emotional experience.",
-    "why_mistranslated": "Same as metanoeō. Latin 'paenitentia' (penance/penitence) shaped Western understanding toward emotional sorrow. The Greek metanoia is about DIRECTION CHANGE. Evangelism's emphasis on 'feeling sorry for your sins' is a downstream effect of this mistranslation; the original call is 'change your entire mind and life direction, because the Kingdom is here.'",
-    "root": "meta (change) + noia (mind)",
-    "pos": "noun feminine",
-    "cross_refs": ["Matthew 3:8","Acts 2:38","Acts 11:18","Romans 2:4","2 Corinthians 7:10"],
-    "author": "draft — awaiting Kahu review"
+    "cross_refs": [
+      "Ephesians 6:11-13",
+      "Romans 5:2",
+      "1 Corinthians 16:13",
+      "1 Peter 5:12",
+      "Revelation 3:20"
+    ],
+    "author": "Kahu Phil Stephens"
   },
   "H7725": {
     "hebrew": "שׁוּב",
     "translit": "shuv",
-    "english_flattened": "return (come back physically)",
-    "actual_meaning": "To turn, to return, to turn back. The OT verb for repentance. When prophets call Israel to 'shuv' to YHWH, they mean TURN AROUND and go back. Not emotional remorse but directional reversal. The same word is used for physical turning, returning from exile, and spiritual return to covenant. All three meanings are one picture: reversing course.",
-    "why_mistranslated": "English 'return' is mostly physical (go back to a place). Hebrew shuv is the full covenant call to REVERSE DIRECTION — physically, spiritually, morally. The prophets' constant cry 'shuv!' is 'turn around and walk the other way!' — not 'feel sorry' but 'change course.'",
+    "english_flattened": "return (come back to a place you left)",
+    "actual_meaning": "Turn around. Reverse direction. Walk back toward the one you turned away from. This is the OT verb for repentance — the same concept as Greek metanoia but even more physical in its imagery. When the prophets cry shuv to Israel, they are not asking for a feeling or a ritual. They are describing a physical picture: you have been walking away from YHWH, turn your body around, and walk back toward Him. The book of Hosea is built entirely on this word — God calling His people to turn around and come home.",
+    "why_mistranslated": "English return is primarily about physical location — go back to a place. Hebrew shuv is about direction and relationship — turn around and face the one you turned away from. This is why the prodigal son story works as a picture of repentance — he came to himself and turned around and walked home.",
     "root": "sh-u-b",
     "pos": "verb",
-    "cross_refs": ["Joel 2:12-13","Jeremiah 3:12-14","Hosea 14:1-2","Zechariah 1:3","Ezekiel 18:30-32"],
-    "author": "draft — awaiting Kahu review"
+    "cross_refs": [
+      "Joel 2:12-13",
+      "Jeremiah 3:12-14",
+      "Hosea 14:1-2",
+      "Zechariah 1:3",
+      "Ezekiel 18:30-32"
+    ],
+    "author": "Kahu Phil Stephens"
   }
 }
