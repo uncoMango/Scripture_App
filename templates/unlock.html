@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Unlock Access — Ke Aupuni O Ke Akua</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&family=Noto+Serif:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg:         #0f0d0a;
+      --surface:    #1a1610;
+      --surface2:   #231e17;
+      --border:     #3a3020;
+      --border2:    #4d4030;
+      --gold:       #c8972a;
+      --gold-soft:  #d4aa55;
+      --gold-dim:   #7a5a18;
+      --text:       #e8dfc8;
+      --text-dim:   #9a8e78;
+      --text-faint: #5a5040;
+      --red:        #c04a3a;
+      --radius:     4px;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Noto Sans', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      line-height: 1.7;
+    }
+
+    header {
+      border-bottom: 1px solid var(--border);
+      padding: 2.5rem 1.5rem 2rem;
+      text-align: center;
+      background: linear-gradient(180deg, #141008 0%, var(--bg) 100%);
+    }
+
+    .site-name {
+      font-family: 'Noto Serif', serif;
+      font-size: clamp(1rem, 3vw, 1.35rem);
+      font-weight: 600;
+      letter-spacing: 0.09em;
+      color: var(--gold);
+      text-transform: uppercase;
+    }
+
+    .site-tagline {
+      font-size: 0.82rem;
+      color: var(--text-dim);
+      letter-spacing: 0.03em;
+      margin-top: 0.4rem;
+      font-style: italic;
+    }
+
+    main {
+      max-width: 460px;
+      margin: 3rem auto 5rem;
+      padding: 0 1.5rem;
+    }
+
+    .panel {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.75rem 1.75rem 1.5rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .panel-title {
+      font-size: 0.68rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--text-faint);
+      padding-bottom: 0.6rem;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 1.1rem;
+    }
+
+    .price-display {
+      font-family: 'Noto Serif', serif;
+      font-size: 2.1rem;
+      font-weight: 600;
+      color: var(--gold);
+      margin-bottom: 0.3rem;
+    }
+
+    .price-note {
+      font-size: 0.78rem;
+      color: var(--text-faint);
+      margin-bottom: 1.1rem;
+    }
+
+    .feature-list {
+      list-style: none;
+      margin-bottom: 1.4rem;
+      font-size: 0.83rem;
+      color: var(--text-dim);
+    }
+
+    .feature-list li { padding: 0.22rem 0; }
+
+    .feature-list li::before {
+      content: "·";
+      color: var(--gold-dim);
+      margin-right: 0.55rem;
+    }
+
+    .btn-buy {
+      width: 100%;
+      background: var(--gold-dim);
+      border: none;
+      border-radius: var(--radius);
+      color: #f0e8d0;
+      cursor: pointer;
+      font-family: 'Noto Sans', sans-serif;
+      font-size: 0.88rem;
+      font-weight: 600;
+      letter-spacing: 0.07em;
+      padding: 0.85rem 1.5rem;
+      text-transform: uppercase;
+      transition: background 0.2s, color 0.2s;
+    }
+
+    .btn-buy:hover    { background: var(--gold); color: #1a1610; }
+    .btn-buy:disabled { background: var(--border); color: var(--text-faint); cursor: not-allowed; }
+
+    .divider {
+      text-align: center;
+      font-size: 0.72rem;
+      color: var(--text-faint);
+      margin: 0.25rem 0;
+      letter-spacing: 0.05em;
+    }
+
+    .input-label {
+      display: block;
+      font-size: 0.72rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--text-dim);
+      margin-bottom: 0.55rem;
+    }
+
+    .code-input {
+      width: 100%;
+      background: var(--surface2);
+      border: 1px solid var(--border2);
+      border-radius: var(--radius);
+      color: var(--text);
+      font-family: 'Courier New', monospace;
+      font-size: 1rem;
+      padding: 0.7rem 1rem;
+      outline: none;
+      transition: border-color 0.2s;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      margin-bottom: 0.6rem;
+    }
+
+    .code-input::placeholder { color: var(--text-faint); text-transform: none; letter-spacing: 0; }
+    .code-input:focus         { border-color: var(--gold-dim); }
+
+    .btn-unlock {
+      width: 100%;
+      background: none;
+      border: 1px solid var(--border2);
+      border-radius: var(--radius);
+      color: var(--text-dim);
+      cursor: pointer;
+      font-family: 'Noto Sans', sans-serif;
+      font-size: 0.83rem;
+      font-weight: 600;
+      letter-spacing: 0.07em;
+      padding: 0.7rem 1.3rem;
+      text-transform: uppercase;
+      transition: border-color 0.2s, color 0.2s;
+    }
+
+    .btn-unlock:hover    { border-color: var(--gold-dim); color: var(--gold-soft); }
+    .btn-unlock:disabled { border-color: var(--border); color: var(--text-faint); cursor: not-allowed; }
+
+    .error-msg {
+      margin-top: 0.65rem;
+      font-size: 0.8rem;
+      color: #c89080;
+      display: none;
+    }
+
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 1.5rem;
+      text-align: center;
+      font-size: 0.66rem;
+      color: var(--text-faint);
+      line-height: 2;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="site-name">Ke Aupuni O Ke Akua</div>
+  <div class="site-tagline">See what the Bible is really saying — not just what it says</div>
+</header>
+
+<main>
+
+  <div class="panel">
+    <div class="panel-title">Get Access</div>
+    <div class="price-display">$97</div>
+    <p class="price-note">One-time payment &nbsp;·&nbsp; No subscription</p>
+    <ul class="feature-list">
+      <li>Full word-by-word interlinear for every OT and NT verse</li>
+      <li>73 authored mistranslation entries by Kahu Phil Stephens</li>
+      <li>Biblical Hebrew (OT) and Koine Greek (NT) originals</li>
+      <li>Cross-reference linking between verses</li>
+    </ul>
+    <button id="buyBtn" class="btn-buy" onclick="buyAccess()">Buy Access — $97</button>
+  </div>
+
+  <div class="divider">— already have a code? —</div>
+
+  <div class="panel">
+    <div class="panel-title">Enter Your Code</div>
+    <label class="input-label" for="codeInput">Access code</label>
+    <input id="codeInput" class="code-input" type="text"
+           placeholder="KAHU-XXXX-XXXX-XXXX"
+           maxlength="19"
+           autocomplete="off"
+           spellcheck="false">
+    <button id="unlockBtn" class="btn-unlock" onclick="submitCode()">Unlock</button>
+    <div id="errorMsg" class="error-msg">Invalid code — please check and try again.</div>
+  </div>
+
+</main>
+
+<footer>
+  Kahu Phil Stephens · Ke Aupuni O Ke Akua Press
+  &nbsp;|&nbsp;
+  Biblical Hebrew &amp; Koine Greek scholarship
+</footer>
+
+<script>
+  if (localStorage.getItem("kahu_access_code")) {
+    window.location.replace("/");
+  }
+
+  document.getElementById("codeInput").addEventListener("keydown", function (e) {
+    if (e.key === "Enter") submitCode();
+  });
+
+  document.getElementById("codeInput").addEventListener("input", function () {
+    document.getElementById("errorMsg").style.display = "none";
+  });
+
+  async function buyAccess() {
+    const btn = document.getElementById("buyBtn");
+    btn.disabled    = true;
+    btn.textContent = "Redirecting…";
+    try {
+      const res  = await fetch("/stripe/create-checkout-session", { method: "POST" });
+      const data = await res.json();
+      if (data.url) {
+        window.location.href = data.url;
+      } else {
+        reset(btn, "Buy Access — $97");
+        alert("Could not start checkout. Please try again.");
+      }
+    } catch (_) {
+      reset(btn, "Buy Access — $97");
+      alert("Could not reach the server. Please try again.");
+    }
+  }
+
+  async function submitCode() {
+    const code   = document.getElementById("codeInput").value.trim().toUpperCase();
+    const btn    = document.getElementById("unlockBtn");
+    const errEl  = document.getElementById("errorMsg");
+    if (!code) return;
+
+    btn.disabled    = true;
+    btn.textContent = "Checking…";
+    errEl.style.display = "none";
+
+    try {
+      const res = await fetch("/api/validate-code", {
+        method:  "POST",
+        headers: { "Content-Type": "application/json" },
+        body:    JSON.stringify({ code }),
+      });
+      if (res.ok) {
+        localStorage.setItem("kahu_access_code", code);
+        window.location.replace("/");
+      } else {
+        errEl.style.display = "block";
+      }
+    } catch (_) {
+      errEl.textContent   = "Could not reach the server. Please try again.";
+      errEl.style.display = "block";
+    } finally {
+      reset(btn, "Unlock");
+    }
+  }
+
+  function reset(btn, label) {
+    btn.disabled    = false;
+    btn.textContent = label;
+  }
+</script>
+
+</body>
+</html>

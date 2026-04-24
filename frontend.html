@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script>if (!localStorage.getItem("kahu_access_code")) { window.location.replace("/unlock"); }</script>
   <title>Ke Aupuni O Ke Akua — Scripture Study</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -439,6 +440,12 @@
 </footer>
 
 <script>
+  (function () {
+    if (!localStorage.getItem("kahu_access_code")) {
+      window.location.replace("/unlock");
+    }
+  }());
+
   let currentRef  = "";
   let currentData = null;
   let showingAll  = false;
