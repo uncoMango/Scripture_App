@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kingdom Study Tools — Ke Aupuni O Ke Akua</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&family=Noto+Serif:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg:         #0f0d0a;
+      --surface:    #1a1610;
+      --surface2:   #231e17;
+      --border:     #3a3020;
+      --border2:    #4d4030;
+      --gold:       #c8972a;
+      --gold-soft:  #d4aa55;
+      --gold-dim:   #7a5a18;
+      --text:       #e8dfc8;
+      --text-dim:   #9a8e78;
+      --text-faint: #5a5040;
+      --radius:     4px;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Noto Sans', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      line-height: 1.7;
+    }
+
+    /* ── Header ──────────────────────────────────────── */
+
+    header {
+      border-bottom: 1px solid var(--border);
+      padding: 2rem 1.5rem 1.75rem;
+      text-align: center;
+      background: linear-gradient(180deg, #141008 0%, var(--bg) 100%);
+    }
+
+    .site-name {
+      font-family: 'Noto Serif', serif;
+      font-size: clamp(0.9rem, 2.5vw, 1.2rem);
+      font-weight: 600;
+      letter-spacing: 0.09em;
+      color: var(--gold);
+      text-transform: uppercase;
+    }
+
+    .site-tagline {
+      font-size: 0.8rem;
+      color: var(--text-dim);
+      letter-spacing: 0.03em;
+      margin-top: 0.35rem;
+      font-style: italic;
+    }
+
+    /* ── Layout ──────────────────────────────────────── */
+
+    main {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 0 1.5rem 5rem;
+    }
+
+    /* ── Hero ────────────────────────────────────────── */
+
+    .hero {
+      padding: 4rem 0 3.5rem;
+      text-align: center;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .hero-eyebrow {
+      font-size: 0.68rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--gold-dim);
+      margin-bottom: 1.1rem;
+    }
+
+    .hero-headline {
+      font-family: 'Noto Serif', serif;
+      font-size: clamp(1.9rem, 5vw, 2.8rem);
+      font-weight: 600;
+      color: var(--text);
+      letter-spacing: 0.01em;
+      line-height: 1.2;
+      margin-bottom: 1.2rem;
+    }
+
+    .hero-sub {
+      font-size: clamp(0.9rem, 2vw, 1rem);
+      color: var(--text-dim);
+      max-width: 520px;
+      margin: 0 auto 2.5rem;
+      line-height: 1.8;
+    }
+
+    .hero-sub strong {
+      color: var(--text);
+      font-weight: 600;
+    }
+
+    .btn-buy {
+      display: inline-block;
+      background: var(--gold-dim);
+      border: none;
+      border-radius: var(--radius);
+      color: #f0e8d0;
+      cursor: pointer;
+      font-family: 'Noto Sans', sans-serif;
+      font-size: 0.88rem;
+      font-weight: 600;
+      letter-spacing: 0.07em;
+      padding: 0.9rem 2.2rem;
+      text-decoration: none;
+      text-transform: uppercase;
+      transition: background 0.2s, color 0.2s;
+    }
+
+    .btn-buy:hover { background: var(--gold); color: #1a1610; }
+
+    .price-note {
+      margin-top: 0.75rem;
+      font-size: 0.75rem;
+      color: var(--text-faint);
+      letter-spacing: 0.04em;
+    }
+
+    /* ── What's included ─────────────────────────────── */
+
+    .section {
+      padding: 3.5rem 0;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .section-label {
+      font-size: 0.66rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--text-faint);
+      margin-bottom: 1.5rem;
+    }
+
+    .feature-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 0.75rem;
+    }
+
+    .feature-item {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.1rem 1.2rem;
+    }
+
+    .feature-item-title {
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: var(--gold-soft);
+      margin-bottom: 0.35rem;
+      letter-spacing: 0.03em;
+    }
+
+    .feature-item-body {
+      font-size: 0.78rem;
+      color: var(--text-dim);
+      line-height: 1.65;
+    }
+
+    /* ── Preview ─────────────────────────────────────── */
+
+    .preview-intro {
+      font-size: 0.85rem;
+      color: var(--text-dim);
+      margin-bottom: 1.5rem;
+      line-height: 1.75;
+    }
+
+    .verse-block {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.4rem 1.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .verse-ref {
+      font-size: 0.68rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--text-faint);
+      margin-bottom: 0.65rem;
+    }
+
+    .verse-text {
+      font-family: 'Noto Serif', serif;
+      font-size: 1rem;
+      color: var(--text);
+      line-height: 1.85;
+    }
+
+    .verse-text mark {
+      background: none;
+      color: var(--gold);
+      font-style: italic;
+    }
+
+    .word-card {
+      background: var(--surface2);
+      border: 1px solid var(--border2);
+      border-left: 3px solid var(--gold-dim);
+      border-radius: var(--radius);
+      padding: 1.3rem 1.4rem 1.2rem;
+    }
+
+    .word-card-header {
+      display: flex;
+      align-items: baseline;
+      gap: 0.75rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .word-greek {
+      font-family: 'Noto Serif', serif;
+      font-size: 1.35rem;
+      font-style: italic;
+      color: var(--gold);
+      letter-spacing: 0.02em;
+    }
+
+    .word-translit {
+      font-size: 0.8rem;
+      color: var(--text-dim);
+      letter-spacing: 0.04em;
+    }
+
+    .word-strongs {
+      margin-left: auto;
+      font-size: 0.66rem;
+      letter-spacing: 0.1em;
+      color: var(--text-faint);
+      text-transform: uppercase;
+    }
+
+    .word-gloss {
+      font-size: 0.83rem;
+      color: var(--text);
+      font-weight: 600;
+      margin-bottom: 0.55rem;
+      letter-spacing: 0.02em;
+    }
+
+    .word-body {
+      font-size: 0.8rem;
+      color: var(--text-dim);
+      line-height: 1.75;
+    }
+
+    .word-body p + p { margin-top: 0.6rem; }
+
+    .preview-cta {
+      margin-top: 1.5rem;
+      font-size: 0.78rem;
+      color: var(--text-faint);
+      font-style: italic;
+      text-align: center;
+    }
+
+    /* ── Author ──────────────────────────────────────── */
+
+    .author-block {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.6rem 1.7rem;
+    }
+
+    .author-name {
+      font-family: 'Noto Serif', serif;
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: 0.3rem;
+    }
+
+    .author-title {
+      font-size: 0.72rem;
+      letter-spacing: 0.08em;
+      color: var(--gold-dim);
+      text-transform: uppercase;
+      margin-bottom: 1rem;
+    }
+
+    .author-bio {
+      font-size: 0.82rem;
+      color: var(--text-dim);
+      line-height: 1.8;
+    }
+
+    .author-bio p + p { margin-top: 0.65rem; }
+
+    /* ── Bottom CTA ──────────────────────────────────── */
+
+    .cta-block {
+      text-align: center;
+      padding: 3.5rem 0 0;
+    }
+
+    .cta-price {
+      font-family: 'Noto Serif', serif;
+      font-size: 2.4rem;
+      font-weight: 600;
+      color: var(--gold);
+      margin-bottom: 0.25rem;
+    }
+
+    .cta-note {
+      font-size: 0.78rem;
+      color: var(--text-faint);
+      margin-bottom: 1.5rem;
+      letter-spacing: 0.04em;
+    }
+
+    /* ── Footer ──────────────────────────────────────── */
+
+    footer {
+      border-top: 1px solid var(--border);
+      margin-top: 4rem;
+      padding: 1.5rem;
+      text-align: center;
+      font-size: 0.66rem;
+      color: var(--text-faint);
+      line-height: 2;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="site-name">Ke Aupuni O Ke Akua</div>
+  <div class="site-tagline">See what the Bible is really saying — not just what it says</div>
+</header>
+
+<main>
+
+  <!-- Hero -->
+  <div class="hero">
+    <div class="hero-eyebrow">Original-Language Word Studies</div>
+    <h1 class="hero-headline">Kingdom Study Tools</h1>
+    <p class="hero-sub">
+      <strong>73 authored word studies</strong> tracing the exact Hebrew and Greek words
+      behind familiar verses — what they meant to the original audience, and what
+      modern English translations leave out.
+    </p>
+    <a class="btn-buy" href="https://scripture-app.onrender.com/unlock">Get Access — $97</a>
+    <div class="price-note">One-time payment &nbsp;·&nbsp; No subscription</div>
+  </div>
+
+  <!-- What's included -->
+  <div class="section">
+    <div class="section-label">What you get</div>
+    <div class="feature-grid">
+      <div class="feature-item">
+        <div class="feature-item-title">73 Word Studies</div>
+        <div class="feature-item-body">Every entry authored by Kahu Phil Stephens — covering both Old Testament Hebrew and New Testament Greek.</div>
+      </div>
+      <div class="feature-item">
+        <div class="feature-item-title">Interlinear Lookup</div>
+        <div class="feature-item-body">Search any verse and see the original-language words side by side with the English, with Strong's references.</div>
+      </div>
+      <div class="feature-item">
+        <div class="feature-item-title">Mistranslation Finder</div>
+        <div class="feature-item-body">Entries that identify where English translations soften, narrow, or miss the force of the original text.</div>
+      </div>
+      <div class="feature-item">
+        <div class="feature-item-title">Cross-References</div>
+        <div class="feature-item-body">Words linked across verses so you can trace a concept through the whole canon in the original language.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Free preview -->
+  <div class="section">
+    <div class="section-label">Free preview — Matthew 6:33</div>
+    <p class="preview-intro">
+      Below is a sample word study from the collection. The entry examines a single Greek word
+      in Matthew 6:33 that most English Bibles translate as "seek" — but whose range of meaning
+      goes further than that.
+    </p>
+
+    <div class="verse-block">
+      <div class="verse-ref">Matthew 6:33 — Koine Greek source</div>
+      <div class="verse-text">
+        "But <mark>seek</mark> first the kingdom of God and his righteousness,
+        and all these things will be added to you."
+      </div>
+    </div>
+
+    <div class="word-card">
+      <div class="word-card-header">
+        <span class="word-greek">ζητέω</span>
+        <span class="word-translit">zēteō</span>
+        <span class="word-strongs">G2212</span>
+      </div>
+      <div class="word-gloss">to seek · to crave · to demand</div>
+      <div class="word-body">
+        <p>
+          Most English translations render <em>zēteō</em> as "seek," which implies a calm,
+          deliberate searching. The Greek carries more weight than that. The word appears
+          across the New Testament to describe a craving, a pressing demand, or an
+          insistence — not a passive looking.
+        </p>
+        <p>
+          In Matthew 6:33, the present-tense imperative form means something closer to
+          "keep on craving" or "make this your constant pursuit." The Kingdom is not
+          something you look for when you have time. Jesus is describing the orientation
+          of a whole life.
+        </p>
+        <p>
+          The same root appears in Luke 12:29–30, where Jesus contrasts what the nations
+          "run after" (<em>epizēteō</em>) with what his disciples are to pursue — the same
+          insistence, redirected.
+        </p>
+      </div>
+    </div>
+
+    <p class="preview-cta">
+      73 entries like this are in the full collection — covering Hebrew (Old Testament)
+      and Greek (New Testament).
+    </p>
+  </div>
+
+  <!-- Author -->
+  <div class="section">
+    <div class="section-label">About the author</div>
+    <div class="author-block">
+      <div class="author-name">Kahu Phil Stephens</div>
+      <div class="author-title">Author &nbsp;·&nbsp; Biblical Scholar &nbsp;·&nbsp; Pastor</div>
+      <div class="author-bio">
+        <p>
+          Kahu Phil Stephens is a Native Hawaiian pastor and graduate of Kamehameha Schools.
+          He has spent 30 years studying the Bible in its original languages — Biblical Hebrew
+          for the Old Testament and Koine Greek for the New Testament.
+        </p>
+        <p>
+          He served 8 years in pastoral ministry on Moloka&#699;i, working within Native Hawaiian
+          communities where the gap between translated scripture and its original meaning had
+          direct consequences for how people understood their identity and calling.
+        </p>
+        <p>
+          The word studies in this collection are drawn from that work — not academic exercises,
+          but years of pastoral reading in the original text.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bottom CTA -->
+  <div class="cta-block">
+    <div class="cta-price">$97</div>
+    <div class="cta-note">One-time payment &nbsp;·&nbsp; No subscription &nbsp;·&nbsp; Lifetime access</div>
+    <a class="btn-buy" href="https://scripture-app.onrender.com/unlock">Get Access — $97</a>
+  </div>
+
+</main>
+
+<footer>
+  Kahu Phil Stephens &nbsp;·&nbsp; Ke Aupuni O Ke Akua Press
+  &nbsp;|&nbsp;
+  Biblical Hebrew &amp; Koine Greek scholarship
+</footer>
+
+</body>
+</html>

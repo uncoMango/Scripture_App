@@ -24,6 +24,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+print("REGISTERING STRIPE ROUTER")
 app.include_router(stripe_router)
 
 
@@ -41,6 +42,11 @@ def home():
 @app.get("/unlock", response_class=HTMLResponse)
 def unlock_page():
     return _read_template("templates/unlock.html")
+
+
+@app.get("/kingdom-study", response_class=HTMLResponse)
+def kingdom_study():
+    return _read_template("templates/kingdom_study.html")
 
 
 @app.get("/study")

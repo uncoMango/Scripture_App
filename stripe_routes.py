@@ -1,9 +1,14 @@
+print("STRIPE ROUTER LOADED")
+import logging
 import os
+import traceback
 import stripe
 from fastapi import APIRouter, HTTPException, Request
 from fastapi.responses import HTMLResponse
 import access
 import email_utils
+
+log = logging.getLogger(__name__)
 
 router = APIRouter(prefix="/stripe")
 
@@ -11,6 +16,18 @@ stripe.api_key  = os.environ.get("STRIPE_SECRET_KEY", "")
 _WEBHOOK_SECRET = os.environ.get("STRIPE_WEBHOOK_SECRET", "")
 _PRICE_ID       = os.environ.get("STRIPE_PRICE_ID", "")
 _BASE_URL       = os.environ.get("APP_BASE_URL", "https://scripture-app.onrender.com")
+
+_key_hint   = stripe.api_key[:8]   if stripe.api_key else "(not set)"
+_price_hint = _PRICE_ID[:8]        if _PRICE_ID      else "(not set)"
+log.info("Stripe config — STRIPE_SECRET_KEY: %s... | STRIPE_PRICE_ID: %s...", _key_hint, _price_hint)
+
+
+@router.get("/test")
+async def test_config():
+    return {
+        "price_id":   os.environ.get("STRIPE_PRICE_ID"),
+        "key_prefix": os.environ.get("STRIPE_SECRET_KEY", "")[:8],
+    }
 
 
 @router.post("/create-checkout-session")
@@ -25,7 +42,9 @@ async def create_checkout_session():
         )
         return {"url": session.url}
     except stripe.error.StripeError as exc:
-        raise HTTPException(status_code=500, detail=str(exc))
+        log.error("Stripe error in create-checkout-session:\n%s", traceback.format_exc())
+        detail = exc.json_body if exc.json_body else str(exc)
+        raise HTTPException(status_code=500, detail=detail)
 
 
 @router.post("/webhook")

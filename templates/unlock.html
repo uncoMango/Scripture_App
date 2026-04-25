@@ -270,11 +270,14 @@
         window.location.href = data.url;
       } else {
         reset(btn, "Buy Access — $97");
-        alert("Could not start checkout. Please try again.");
+        const msg = data.detail
+          ? JSON.stringify(data.detail, null, 2)
+          : `HTTP ${res.status} — no detail returned`;
+        alert("Checkout error:\n" + msg);
       }
-    } catch (_) {
+    } catch (err) {
       reset(btn, "Buy Access — $97");
-      alert("Could not reach the server. Please try again.");
+      alert("Could not reach the server:\n" + err);
     }
   }
 
