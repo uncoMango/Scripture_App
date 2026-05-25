@@ -50,7 +50,9 @@ def kingdom_study():
 
 
 @app.get("/study")
-def study(q: str, show_all: bool = False):
+def study(q: str, show_all: bool = False, token: str = ""):
+    if not token or not access.validate_code(token.strip().upper()):
+        raise HTTPException(status_code=401, detail="Unauthorized")
     return scripture_search.get_web_result(q, show_all=show_all)
 
 

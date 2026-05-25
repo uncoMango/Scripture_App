@@ -454,6 +454,13 @@
     if (e.key === "Enter") doSearch();
   });
 
+  function studyUrl(q, showAll) {
+    const token = localStorage.getItem("kahu_access_code") || "";
+    let url = "/study?q=" + encodeURIComponent(q) + "&token=" + encodeURIComponent(token);
+    if (showAll) url += "&show_all=true";
+    return url;
+  }
+
   async function doSearch() {
     const q = document.getElementById("query").value.trim();
     if (!q) return;
@@ -466,7 +473,8 @@
     setOutput('<div class="spinner">Searching</div>');
 
     try {
-      const res  = await fetch("/study?q=" + encodeURIComponent(q));
+      const res  = await fetch(studyUrl(q, false));
+      if (res.status === 401) { localStorage.removeItem("kahu_access_code"); window.location.replace("/unlock"); return; }
       const data = await res.json();
       currentData = data;
       render(data);
@@ -488,7 +496,8 @@
 
     if (showingAll && currentData && !(currentData.all_words && currentData.all_words.length)) {
       try {
-        const res  = await fetch("/study?q=" + encodeURIComponent(currentRef) + "&show_all=true");
+        const res  = await fetch(studyUrl(currentRef, true));
+        if (res.status === 401) { localStorage.removeItem("kahu_access_code"); window.location.replace("/unlock"); return; }
         currentData = await res.json();
       } catch (_) {}
     }
